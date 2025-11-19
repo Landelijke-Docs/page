@@ -1,7 +1,18 @@
 ---
-title: Welcome
+title: Landelijke Docs
+format: html
 ---
 
-This is a template for creating (hand)books styled for VU Amsterdam.
+Welcome to Landelijke Docs, a national effort to collectively produce the clearest and most comprehensive documentation and guides on research software.
 
-To get started you only need a GitHub account. Visit the repository to create your own handbook 😊
+
+<br/><br/>
+
+<br/><br/>
+
+<br/><br/>
+
+<br/><br/>
+
+<br/><br/>
+

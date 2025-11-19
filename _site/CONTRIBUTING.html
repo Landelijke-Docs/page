@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Chapters – landelijke-docs</title>
+<title>contributing – landelijke-docs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -69,65 +67,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: [],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -172,44 +112,38 @@ window.Quarto = {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Chapters</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
+<p>How to contribute to Landelijke Docs</p>
+<p>We’re glad for your interest in contributing to our project. Landelijke Docs is open-source, and as such, anyone can contribute! The process is really simple.</p>
+<p>You are welcome to contribute to our platform in two ways. Create a new GitHub Issue</p>
+<p>Head over to our issue page on GitHub to let us know about bugs, feature requests for the website, or anything that you would love to see developed for your research project (e.g., a code snippet). You can also attach files. Contribute directly via Pull Requests</p>
+<p>Already familiar with GitHub and Pull Requests? Than fork our repository, work on your changes in a fresh branch, and submit a pull request.</p>
+<p>Need a step-by-step tutorial on how to do that? Read more about pull requests here. What is a contribution?</p>
+<p>Anything from simple changes, grammar checks and reporting a bug to more elaborate changes and writing entirely new content!</p>
+<p>We basically welcome any kind of feedback and contribution, including but not limited to:</p>
+<pre><code>general fixes (typos, small sentences)
+elaborate changes (modifying, adding or removing an entire paragraph or chapter)
+asking for new content to be added
+submitting an article without worrying about formatting (even a Word file!)
+reporting a bug
+requesting a new feature on the website
+general tips or questions on the project</code></pre>
+<p>How is the content organized?</p>
+<p>We provide content in three forms:</p>
+<pre><code>Building Blocks are concepts in small doses, the DNA of our platform. They are small code snippets that users can independently "mix" to create something unique, like LEGO bricks. These allow us to explain the theory while also providing some practical examples and code snippets for a variety of programming languages or operating systems. Information is explained in a way that it is easy to clone or implement in an existing project. While everybody can follow our Building Blocks, they are generally more appealing to advanced users – or those who already know what to look for.
+
+Tutorials explain a broader argument compared to Building Blocks, and follow a sequential order. They teach our users how to combine individual building blocks into a "final product". These are particularly useful for novices or anyone new to a certain topic because of their comprehensive nature and step-by-step guidance. We support and encourage the use of videos, exercises, and quizzes in a tutorial.
+
+Examples are real-life cases, publications, templates, or research projects that put into practice the concepts explained on this website.</code></pre>
+<p>Kindly stolen form Tilburg Uni</p>
 
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<table class="quarto-listing-table table caption-top" data-quarto-postprocess="true">
-<tbody class="list">
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

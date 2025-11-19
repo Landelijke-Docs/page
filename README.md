@@ -1,32 +1,37 @@
-# Handbook template
+# Landelijke Docs (can the logo be added here?)
 
-This repository contains the template for handbooks to be built in the VU style. These are meant to help make it easier to create community curated books, which can be shared and released online. 
+Welcome to Landelijke Docs, this is an informal community effort to collect and collate software good practice, guides, and guidelines. The initiative is born out of 
 
-## Getting started 
+## Introduction
+Intro
 
-To make the template your own, please [use this template](https://github.com/new?template_name=handbook-template&template_owner=ubvu) to create a new repository.
+## Project goals: 
 
-After you created your own repository based on the template, go through the checklist to update with your book's metadata:
+    Encourage engagement with existing platforms to promote the re-use and adaptation of existing training materials related toto research software 
 
-- [ ] Update `_quarto.yml` file
-    - [ ] Change title
-    - [ ] `site-url` - `https://<username>.github.io/<repo>`
-    - [ ] `repo-url` - `https://github.com/<username>/<repo>`
-    - [ ] `issue-url` - `https://github.com/<username>/<repo>/issues/new/choose`
+    Expand written documentation and guides for research software  
 
-## Deploying
+    Connect support staff and research software engineers with community initiatives to improve peer support and inter-institutional collaboration. 
 
-This template tries to take away as much manual labor as possible. The idea is that the website is updated everytime something changes on the `main` branch. This way you can focus on writing great content!
+## What will be in the web-book?
+Plan for what will be here, what to find in the book
 
-For the automation to work, you need to go through a few manual steps - once. If you don't like command lines and are trying to create a book under [the UBVU organization](https://github.com/ubvu), just contact @chartgerink and they'll help you out!
+## What do I get from this?
+Community suport
+Feedback on courses
+Frameworks, templates, etc made by others 
+Potential teachers or workshop providers  
 
-```
-# clone the repo
-git clone https://github.com/<username>/<repo>
-cd <repo>
+## What can I do to help?
+What do we need help wise.
+Gather resources
+writing articles
+adding 3rd party resources
+dev work
+design work
+making code templates/standards
+construction of a training meta data
 
-# set up the publishing to github pages
-quarto publish gh-pages
-```
-
-If you like commandlines and need to install Quarto, [check out the Quarto website](https://quarto.org/docs/get-started/index.html) for more info.
+## How can I contribute?
+How to contribute, reference the data dump in the repo. Outline how the links doc works. How to use the materials as a writer,  
+ link to the contribution md file and style guide.

@@ -1,0 +1,33 @@
+---
+title: "<Category> - x: A"
+draft: true
+date: "xx/xx/20xx"
+description: "A tagline or rewording/repeat of the first sentence"
+categories: [a, b, c]
+about:
+    template: jolla
+    image: "../news/images/x.png"
+page-navigation: true
+---
+
+![<credit for image>](../news/images/x.png)
+
+# <Title as a question>
+
+## <subtitle if needed>
+
+<Short introduction, 2 sentences max to summarise the article and answer.>
+
+<Key quote, rule, image, or idea>
+
+<main body broken into short paragraphs of no longer than x characters.>
+<Use short, simple sentences with minimal jargon, borrowed words, and word length. Keep sentence length varied, but generally no longer than x words.>
+
+
+<TL;DR, conclusion, sum up the key points in bullet points or two short and sweet sentences>
+
+<links used as reference/ further reading/ hightlighted jargon for glossary>
+
+<Link previous page in topic> <Link next page in topic>
+
+Check out the style guide in the x folder.

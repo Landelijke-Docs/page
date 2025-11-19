@@ -1,30 +1,44 @@
 [
   {
+    "objectID": "templates/topic/topic.html",
+    "href": "templates/topic/topic.html",
+    "title": "Topic name",
+    "section": "",
+    "text": "Prerequisite\nImportance\nSkill Level\nNotes\n\n\n\n\n{ref}Chapter &lt;chapter-label&gt;\nHelpful/Necessary\nBeginner/Intermediate/Advanced\nAny useful notes the reader should know\n\n\n\n(from the turing way)"
+  },
+  {
+    "objectID": "templates/topic/topic.html#prerequisites-if-any",
+    "href": "templates/topic/topic.html#prerequisites-if-any",
+    "title": "Topic name",
+    "section": "",
+    "text": "Prerequisite\nImportance\nSkill Level\nNotes\n\n\n\n\n{ref}Chapter &lt;chapter-label&gt;\nHelpful/Necessary\nBeginner/Intermediate/Advanced\nAny useful notes the reader should know\n\n\n\n(from the turing way)"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome",
+    "title": "Landelijke Docs",
     "section": "",
-    "text": "This is a template for creating (hand)books styled for VU Amsterdam.\nTo get started you only need a GitHub account. Visit the repository to create your own handbook 😊"
+    "text": "Welcome to Landelijke Docs, a national effort to collectively produce the clearest and most comprehensive documentation and guides on research software."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   },
   {
     "objectID": "chapters.html",
     "href": "chapters.html",
     "title": "Chapters",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nExample chapter\n\n\n \n\n\n\n\n\nNo matching items"
+    "text": "No matching items"
   },
   {
-    "objectID": "chapters/example.html",
-    "href": "chapters/example.html",
-    "title": "Example chapter",
+    "objectID": "CONTRIBUTING.html",
+    "href": "CONTRIBUTING.html",
+    "title": "landelijke-docs",
     "section": "",
-    "text": "This is an example chapter. We can also add references (Knuth 1984) or inline references Knuth (1984)."
-  },
-  {
-    "objectID": "chapters/example.html#section",
-    "href": "chapters/example.html#section",
-    "title": "Example chapter",
-    "section": "Section",
-    "text": "Section\nThis is an example section. Once you include a section this way there will be a table of contents on the page too!\nYou can use all kinds of helpful tools to highlight information - these are called “Callouts”\n\n\n\n\n\n\nNote\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\nWarning with Title\n\n\n\nThis is an example of a callout with a title.\n\n\n\n\n\n\n\n\nimportant with Title\n\n\n\nThis is an example of a callout with a title.\n\n\n\n\n\n\n\n\nTip with Title\n\n\n\nThis is an example of a callout with a title.\n\n\n\n\n\n\n\n\nExpand To Learn About Collapse\n\n\n\n\n\nThis is an example of a ‘folded’ caution callout that can be expanded by the user. You can use collapse=\"true\" to collapse it by default or collapse=\"false\" to make a collapsible callout that is expanded by default."
+    "text": "How to contribute to Landelijke Docs\nWe’re glad for your interest in contributing to our project. Landelijke Docs is open-source, and as such, anyone can contribute! The process is really simple.\nYou are welcome to contribute to our platform in two ways. Create a new GitHub Issue\nHead over to our issue page on GitHub to let us know about bugs, feature requests for the website, or anything that you would love to see developed for your research project (e.g., a code snippet). You can also attach files. Contribute directly via Pull Requests\nAlready familiar with GitHub and Pull Requests? Than fork our repository, work on your changes in a fresh branch, and submit a pull request.\nNeed a step-by-step tutorial on how to do that? Read more about pull requests here. What is a contribution?\nAnything from simple changes, grammar checks and reporting a bug to more elaborate changes and writing entirely new content!\nWe basically welcome any kind of feedback and contribution, including but not limited to:\ngeneral fixes (typos, small sentences)\nelaborate changes (modifying, adding or removing an entire paragraph or chapter)\nasking for new content to be added\nsubmitting an article without worrying about formatting (even a Word file!)\nreporting a bug\nrequesting a new feature on the website\ngeneral tips or questions on the project\nHow is the content organized?\nWe provide content in three forms:\nBuilding Blocks are concepts in small doses, the DNA of our platform. They are small code snippets that users can independently \"mix\" to create something unique, like LEGO bricks. These allow us to explain the theory while also providing some practical examples and code snippets for a variety of programming languages or operating systems. Information is explained in a way that it is easy to clone or implement in an existing project. While everybody can follow our Building Blocks, they are generally more appealing to advanced users – or those who already know what to look for.\n\nTutorials explain a broader argument compared to Building Blocks, and follow a sequential order. They teach our users how to combine individual building blocks into a \"final product\". These are particularly useful for novices or anyone new to a certain topic because of their comprehensive nature and step-by-step guidance. We support and encourage the use of videos, exercises, and quizzes in a tutorial.\n\nExamples are real-life cases, publications, templates, or research projects that put into practice the concepts explained on this website.\nKindly stolen form Tilburg Uni"
   }
 ]
