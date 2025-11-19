@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+/*-- scss:defaults --*/
+// $h2-font-size:          1.6rem !default;
+// $headings-font-weight:  500 !default;
+// $body-color:            $gray-700 !default;
+
+/*-- scss:rules --*/
+body {
+    font-family: 'Roboto';
+    line-height: 1.6666666667rem;
+}
+
+.fixed-top {
+    position: absolute;
+}
+
+.navbar-logo {
+    max-height: 64px;
+}
+
+header.headroom--pinned {
+    transform: translateY(0%)
+}
+
+header.headroom--unpinned {
+    transform: translateY(0%)
+}
+
+#quarto-sidebar {
+    top: 0px;
+}
+
+.quarto-secondary-nav .quarto-search-button  {
+    display: none
+}
+
+.header-section-number {
+    color: #0282c9
+}
+
+.uri {
+    color: #0282c9
+}
