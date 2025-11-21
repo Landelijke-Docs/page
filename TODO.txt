@@ -1,0 +1,52 @@
+~~~~~~ TODO ~~~~~~
+
+For anyone wanting to contribute and the formal todo lists were not comprehensive enough 
+then look no further. This is the messy todo list that contains all ideas that are to 
+come.
+
+
+-_-_-_- Dev work -_-_-_-
+
+- Add pdf viewing for learning bank
+- Create upload age to avoid needing a codeberg account and knowledge on forking
+- connect to turing way
+- connect to taxila
+- connect to escience center
+- add embedded notebooks
+- add embedded r coding
+- integrate reading level check tools as part of actions (hemmingway/gunning fog index)
+
+******* Design work *******
+
+- Create set of graphics to use in articles
+- Create graphics to break up reading lots of articles
+- Beautify site
+
+<><><>< Writing ><><><>
+
+- articles from basics topics
+- niche topics with best practice
+- homeworks
+- Quizzes?
+
+<^><^><^> Structure <^><^><^>
+
+- Create paths page
+- Create programmes (institute specific paths)
+- Make learning bank page, link all files pdfs, pngs, txts, and docs found in the folder
+- Make 3rd party resource page, add categories/filters (maybe use quarto listing?)
+- Form topic list
+- Form subtopic list
+- Make project path page
+- Make contributing page w/ todo list
+- make a guide template
+- make a programme template
+- update article/subtopic template
+- Fix up the documentation style guide as an example
+- set up email address
+- Refine CoC, contributing, and accessbility and credit as desired by license
+- Add in development section to learning bank
+- Link the todo list to the Codeberg issues
+- Make metadata template for courses & materials
+- Add difficulty, fundamental, ease of learning to metadata
+- Include footer on all pages with contact, link to codeberg page, and license

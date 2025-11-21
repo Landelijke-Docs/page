@@ -1,16 +1,22 @@
-# How to contribute to Landelijke Docs
+---
+title: Contributing
+format: html
+---
 
-We're glad for your interest in contributing to our project. Landelijke Docs is open-source, and as such, anyone can contribute! The process is really simple.
+
+Hey, it's great that you want to contribute to the project!
+
+Landelijke Docs is open-source, and as such, anyone can contribute! For those used to using git repositories the process will be familiar.
 
 You are welcome to contribute to our platform in two ways.
-Create a new Codeberg Issue
+ - Create a new Codeberg Issue
 
-Head over to our issue page on Codeberg to let us know about bugs, feature requests for the website, or anything that you would love to see developed for your research project (e.g., a code snippet). You can also attach files.
-Contribute directly via Pull Requests
+    Head over to our issue page on Codeberg to let us know about bugs, feature requests for the website, or anything that you would love to see developed for your research project (e.g., a code snippet). You can also attach files.
+ - Contribute directly via Pull Requests
 
-Already familiar with Codeberg and Pull Requests? Than fork our repository, work on your changes in a fresh branch, and submit a pull request.
+    Already familiar with Codeberg and Pull Requests? Than fork our repository, work on your changes in a fresh branch, and submit a pull request.
 
-Need a step-by-step tutorial on how to do that? Read more about pull requests here.
+Need a step-by-step tutorial on how to do that? [Read more about pull requests here](https://docs.codeberg.org/collaborating/pull-requests-and-git-flow/).
 
 # What is a contribution?
 
@@ -25,6 +31,8 @@ We basically welcome any kind of feedback and contribution, including but not li
     - reporting a bug
     - requesting a new feature on the website
     - general tips or questions on the project
+    - beautification work
+    - graphics to use in or out of articles
 
 # How is the content organized?
 
@@ -36,4 +44,4 @@ We provide content in three forms:
 
     Examples are real-life cases, publications, templates, or research projects that put into practice the concepts explained on this website.
 
-Kindly stolen form Tilburg Uni
+# TODO list

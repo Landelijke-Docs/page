@@ -2,17 +2,56 @@ project:
   type: website
 
 website:
-  title: "landelijke-docs"
+  site-url: "https://landelijke-docs.github.io/page/"
+  title: "Landelijke Docs"
+  favicon: "/site_design/ld_logo.ico"
+  page-footer:
+    center: 
+      - text: "Contact"
+        href: "https://codeberg.org/Landelijke-Docs/pages/issues"
+      - text: "Contribute"
+        href: "https://codeberg.org/Landelijke-Docs/pages/src/branch/main/CONTRIBUTING.MD"
+      - text: "License"
+        href: license.qmd
   navbar:
+    logo: "/site_design/ld_logo.ico"
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - href: why_code.qmd
+        text: Why should you code?
+      - href: good_practice.qmd
+        text: Programming Abridged
+      - href: learn.qmd
+        text: Learn
+      - text: Paths
+        menu: 
+        - text: Paths
+          href: paths/paths.qmd
+        - text: The Research Lifecycle
+          href: paths/research_lifecycle.qmd
+      - text: Learning Bank
+        menu: 
+        - text: The Learning Bank
+          href: learning_bank/learning_bank.qmd
+        - text: Link List
+          href: learning_bank/link_list.qmd
+        - text: Outside Resources
+          href: learning_bank/3rd_party_res.qmd 
+        - text: In Development
+          href: learning_bank/developing.qmd
+      - href: contributions.qmd
+        text: Contributing
+    tools:
+      - icon: "/site_design/codeberg_logo.ico"
+        href: https://codeberg.org/Landelijke-Docs/pages
 
 format:
   html:
     theme:
-      - lux
+      - flatly
       - brand
     css: styles.css
     toc: true

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>contributing – landelijke-docs</title>
+<title>contributing – Landelijke Docs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href=".//site_design/ld_logo.ico" rel="icon">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -39,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bb49951d50c4a7e8d052f44ae1610a34.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cc63fce9873912f1bbbccf05079cc9ea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,8 +80,11 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./site_design/ld_logo.ico" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">landelijke-docs</span>
+    <span class="navbar-title">Landelijke Docs</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -97,9 +101,64 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./why_code.html"> 
+<span class="menu-text">Why should you code?</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./good_practice.html"> 
+<span class="menu-text">Programming Abridged</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./learn.html"> 
+<span class="menu-text">Learn</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-paths" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Paths</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-paths">    
+        <li>
+    <a class="dropdown-item" href="./paths/paths.html">
+ <span class="dropdown-text">Paths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./paths/research_lifecycle.html">
+ <span class="dropdown-text">The Research Lifecycle</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-learning-bank" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Learning Bank</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-learning-bank">    
+        <li>
+    <a class="dropdown-item" href="./learning_bank/learning_bank.html">
+ <span class="dropdown-text">The Learning Bank</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./learning_bank/link_list.html">
+ <span class="dropdown-text">Link List</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./learning_bank/3rd_party_res.html">
+ <span class="dropdown-text">Outside Resources</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./learning_bank/developing.html">
+ <span class="dropdown-text">In Development</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./contributions.html"> 
+<span class="menu-text">Contributing</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+    <a href="https://codeberg.org/Landelijke-Docs/pages" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-/site_design/codeberg_logo.ico"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -108,8 +167,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#how-to-contribute-to-landelijke-docs" id="toc-how-to-contribute-to-landelijke-docs" class="nav-link active" data-scroll-target="#how-to-contribute-to-landelijke-docs">How to contribute to Landelijke Docs</a></li>
+  <li><a href="#what-is-a-contribution" id="toc-what-is-a-contribution" class="nav-link" data-scroll-target="#what-is-a-contribution">What is a contribution?</a></li>
+  <li><a href="#how-is-the-content-organized" id="toc-how-is-the-content-organized" class="nav-link" data-scroll-target="#how-is-the-content-organized">How is the content organized?</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
@@ -117,22 +184,28 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>How to contribute to Landelijke Docs</p>
+<section id="how-to-contribute-to-landelijke-docs" class="level1">
+<h1>How to contribute to Landelijke Docs</h1>
 <p>We’re glad for your interest in contributing to our project. Landelijke Docs is open-source, and as such, anyone can contribute! The process is really simple.</p>
-<p>You are welcome to contribute to our platform in two ways. Create a new GitHub Issue</p>
-<p>Head over to our issue page on GitHub to let us know about bugs, feature requests for the website, or anything that you would love to see developed for your research project (e.g., a code snippet). You can also attach files. Contribute directly via Pull Requests</p>
-<p>Already familiar with GitHub and Pull Requests? Than fork our repository, work on your changes in a fresh branch, and submit a pull request.</p>
-<p>Need a step-by-step tutorial on how to do that? Read more about pull requests here. What is a contribution?</p>
+<p>You are welcome to contribute to our platform in two ways. Create a new Codeberg Issue</p>
+<p>Head over to our issue page on Codeberg to let us know about bugs, feature requests for the website, or anything that you would love to see developed for your research project (e.g., a code snippet). You can also attach files. Contribute directly via Pull Requests</p>
+<p>Already familiar with Codeberg and Pull Requests? Than fork our repository, work on your changes in a fresh branch, and submit a pull request.</p>
+<p>Need a step-by-step tutorial on how to do that? Read more about pull requests here.</p>
+</section>
+<section id="what-is-a-contribution" class="level1">
+<h1>What is a contribution?</h1>
 <p>Anything from simple changes, grammar checks and reporting a bug to more elaborate changes and writing entirely new content!</p>
 <p>We basically welcome any kind of feedback and contribution, including but not limited to:</p>
-<pre><code>general fixes (typos, small sentences)
-elaborate changes (modifying, adding or removing an entire paragraph or chapter)
-asking for new content to be added
-submitting an article without worrying about formatting (even a Word file!)
-reporting a bug
-requesting a new feature on the website
-general tips or questions on the project</code></pre>
-<p>How is the content organized?</p>
+<pre><code>- general fixes (typos, small sentences)
+- elaborate changes (modifying, adding or removing an entire paragraph or chapter)
+- asking for new content to be added
+- submitting an article without worrying about formatting (even a Word file!)
+- reporting a bug
+- requesting a new feature on the website
+- general tips or questions on the project</code></pre>
+</section>
+<section id="how-is-the-content-organized" class="level1">
+<h1>How is the content organized?</h1>
 <p>We provide content in three forms:</p>
 <pre><code>Building Blocks are concepts in small doses, the DNA of our platform. They are small code snippets that users can independently "mix" to create something unique, like LEGO bricks. These allow us to explain the theory while also providing some practical examples and code snippets for a variety of programming languages or operating systems. Information is explained in a way that it is easy to clone or implement in an existing project. While everybody can follow our Building Blocks, they are generally more appealing to advanced users – or those who already know what to look for.
 
@@ -142,6 +215,7 @@ Examples are real-life cases, publications, templates, or research projects that
 <p>Kindly stolen form Tilburg Uni</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -216,7 +290,7 @@ Examples are real-life cases, publications, templates, or research projects that
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/landelijke-docs\.github\.io\/page\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -544,6 +618,35 @@ Examples are real-life cases, publications, templates, or research projects that
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://codeberg.org/Landelijke-Docs/pages/issues">
+<p>Contact</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://codeberg.org/Landelijke-Docs/pages/src/branch/main/CONTRIBUTING.MD">
+<p>Contribute</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./license.qmd">
+<p>License</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 

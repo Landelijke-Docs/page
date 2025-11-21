@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>accessibility – landelijke-docs</title>
+<title>accessibility – Landelijke Docs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href=".//site_design/ld_logo.ico" rel="icon">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -39,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bb49951d50c4a7e8d052f44ae1610a34.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cc63fce9873912f1bbbccf05079cc9ea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,8 +80,11 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./site_design/ld_logo.ico" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">landelijke-docs</span>
+    <span class="navbar-title">Landelijke Docs</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -97,9 +101,64 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./why_code.html"> 
+<span class="menu-text">Why should you code?</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./good_practice.html"> 
+<span class="menu-text">Programming Abridged</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./learn.html"> 
+<span class="menu-text">Learn</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-paths" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Paths</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-paths">    
+        <li>
+    <a class="dropdown-item" href="./paths/paths.html">
+ <span class="dropdown-text">Paths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./paths/research_lifecycle.html">
+ <span class="dropdown-text">The Research Lifecycle</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-learning-bank" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Learning Bank</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-learning-bank">    
+        <li>
+    <a class="dropdown-item" href="./learning_bank/learning_bank.html">
+ <span class="dropdown-text">The Learning Bank</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./learning_bank/link_list.html">
+ <span class="dropdown-text">Link List</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./learning_bank/3rd_party_res.html">
+ <span class="dropdown-text">Outside Resources</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./learning_bank/developing.html">
+ <span class="dropdown-text">In Development</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./contributions.html"> 
+<span class="menu-text">Contributing</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+    <a href="https://codeberg.org/Landelijke-Docs/pages" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-/site_design/codeberg_logo.ico"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -108,8 +167,24 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#accessibility-policy-of-landelijke-docs-community" id="toc-accessibility-policy-of-landelijke-docs-community" class="nav-link active" data-scroll-target="#accessibility-policy-of-landelijke-docs-community">Accessibility Policy of Landelijke Docs Community</a>
+  <ul class="collapse">
+  <li><a href="#core-principles" id="toc-core-principles" class="nav-link" data-scroll-target="#core-principles">1.1 Core Principles</a>
+  <ul class="collapse">
+  <li><a href="#community-accessibility-practices" id="toc-community-accessibility-practices" class="nav-link" data-scroll-target="#community-accessibility-practices">2.0 Community Accessibility Practices</a></li>
+  <li><a href="#how-we-work-with-access-related-feedback" id="toc-how-we-work-with-access-related-feedback" class="nav-link" data-scroll-target="#how-we-work-with-access-related-feedback">3.0 How we work with Access-related Feedback</a></li>
+  </ul></li>
+  <li><a href="#confidentiality" id="toc-confidentiality" class="nav-link" data-scroll-target="#confidentiality">Confidentiality</a></li>
+  <li><a href="#acknowledging-third-party-platforms" id="toc-acknowledging-third-party-platforms" class="nav-link" data-scroll-target="#acknowledging-third-party-platforms">Acknowledging Third-Party Platforms</a></li>
+  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
@@ -117,8 +192,69 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<section id="accessibility-policy-of-landelijke-docs-community" class="level1">
+<h1>Accessibility Policy of Landelijke Docs Community</h1>
+<p>Within the <em>Landelijke Docs</em> community, we define accessibility practices as a set of community-wide, behavioural, social, and technical decisions that can be taken to ensure that all are welcome and are able to enter and participate in research, data-driven processes, communities and events despite any barriers for access.</p>
+<p>While accessibility is commonly understood with respect to disability, we – meaning the <em>Landelijke Docs</em> community – define accessibility as giving access to everyone, with specific attention given to ensuring proper access for groups of people that encounter different barriers for participation. Barriers may be anything related to, including, and extending beyond the following: - Age - Disability - Ethnicity and race - Family - Language (written and/or spoken) - Geography - Nationality - Religion, faith and belief - Sex and gender - Sexual orientation - Socioeconomic status - Technical or disciplinary background - Mental health - Digital barriers (such as connectivity, computational capacity, and design)</p>
+<p>We recognise the complex and interlinking ways in which intersectionality affects identity, and thereby, access or inclusion within any community project like <em>Landelijke Docs</em>. So in this sense, our accessibility practices may overlap with practices that enable inclusion more broadly within any community.</p>
+<p>In developing this policy, we aim to draw from the <a href="https://accesscenteredmovement.com/what-access-centered-means/">access-centered framework</a> in describing access as a constant process that changes in each space with each individual. This document is a part of a broader collection of documentation across accessibility, listed below: - <a href="https://github.com/the-turing-way/the-turing-way/blob/main/ACCESSIBILITY.md">Accessibility policy</a>: Our vision and guiding principles for how we practice accessibility. - <a href="https://book.the-turing-way.org/community-handbook/accessibility">Community Handbook Accessibility Guidelines</a>: Practical advice to build accessibility into your contributions and activity within the community. - Accessibility Guide: A broader discussion of accessibility and access-related practices that extend beyond Landelijke Docs.</p>
+<p>Each resource (this Accessibility Policy, Community Handbook Accessibility Guidelines, and our Accessibility Guide) plays a different yet overlapping role in enabling, documenting, and sharing our evolving language around accessible and inclusive collaboration.</p>
+<p>This policy is a work in progress, as are the practices that we employ as a community. Much like how <em>Landelijke Docs</em> is always being written and rewritten, our accessibility policies and practices are constantly being updated as broader awareness grows and changes in technology are made.</p>
+<section id="core-principles" class="level2">
+<h2 class="anchored" data-anchor-id="core-principles">1.1 Core Principles</h2>
+<p>These core principles are at the heart of our accessibility policy, and they extend beyond the web accessibility of our open access guides to our broader practices as a community, expanded upon in Section 2.0.</p>
+<p>This means that questions of access are tied to how people read the guides as well as their ability to participate in the project and the community. Participation in <em>Landelijke Docs</em> itself can be defined broadly, but doing so often requires navigating a number of different platforms. In all contexts, we aim to facilitate access in a broad sense through:</p>
+<ol type="1">
+<li><strong>Removing barriers</strong>: We actively advocate for and employ tactics that seek to remove barriers for any current or future participants in our community. This may include people who have historically been limited or structurally excluded from participating due to any of the barriers listed above.</li>
+<li><strong>Sharing openly</strong>: We aim to draft, write, review, and edit our open access guides using open practices documented in our <a href="https://book.the-turing-way.org/reproducible-research/open">guides</a>. We do this in order to enable people from a broad range of backgrounds to get involved in the project.</li>
+<li><strong>Supporting inclusive participation</strong>: We acknowledge that openness alone does not make a project accessible in a broad sense, and we are committed to maintaining a socio-technical infrastructure that enables inclusive participation more broadly. This includes hosting spaces for contribution, documenting our practices, and actively gathering feedback.</li>
+</ol>
+<p>The practices and policies listed here relate to these three operating principles, which shape how we work within the community to enable access on the web, on our community platforms, and while planning events.</p>
+<section id="community-accessibility-practices" class="level3">
+<h3 class="anchored" data-anchor-id="community-accessibility-practices">2.0 Community Accessibility Practices</h3>
+<p>As an open source community that relies on projects and platforms for our underlying infrastructure, we acknowledge that <em>Landelijke Docs</em> is limited in what standalone access-centred support we can offer.</p>
+<p>With this being said, we are committed to ensuring greater access to our guides, events, and community platforms through a variety of ways.</p>
+<ol type="1">
+<li><strong>Ensuring web accessibility for our open access resources</strong>: Our project is built with <a href="https://jupyter-accessibility.readthedocs.io/en/latest/index.html">JupyterBook</a> on the <a href="https://accessibility.github.com/">Github</a> platform, which have initiatives that address their compliance with <a href="https://www.w3.org/TR/WCAG/">W3C WAI’s Web Content Accessibility Guidelines 2.0</a>. As a community documentation project, we aim to use and employ appropriate and relevant <a href="https://book.the-turing-way.org/community-handbook/accessibility/alt-text">alt text (also known as ‘alternative text’</a> for all of our images, charts, and data visualisations.</li>
+<li><strong>Enabling accessibility of our shared community platforms</strong>: Our community is dedicated to enabling access across the various platforms we communicate on, which extends not only to the accessibility practices mentioned above, but also to the language we employ to ensure a broad audience. Our <a href="https://the-turing-way.netlify.app/community-handbook/communication-channels/slack-welcome-guide.html">slack welcome guide</a> delineates best practices we use on the platform.</li>
+<li><strong>Implementing accessible practices for community events</strong>: As a community, we frequently organise events for a variety of purposes: for coworking, training, workshops, panels, conference talks, and more. We are committed to supplying and recording audio transcripts and closed captioning, uploading slides and/or presentation materials, and enabling broad access to our program content <a href="https://book.the-turing-way.org/community-handbook/accessibility/event-organising">as described in our community handbook</a>.</li>
+</ol>
+</section>
+<section id="how-we-work-with-access-related-feedback" class="level3">
+<h3 class="anchored" data-anchor-id="how-we-work-with-access-related-feedback">3.0 How we work with Access-related Feedback</h3>
+<p>Gathering access-related feedback is integral for ensuring that we can remain accessible as a community. We would like to offer a a few ways of sharing feedback with us, and are currently working to develop the following initiatives:</p>
+<ol type="1">
+<li><strong>Feedback form</strong>: Please submit access related comments to our <a href="https://forms.gle/Ngr2eUtQmf7aEeao6">accessibility feedback form</a>. All of the information in this form is processed anonymously, with the option of submitting contact information by choice.</li>
+<li><strong>Drop-in sessions</strong>: Throughout the calendar year, we would like to facilitate drop-in session to receive feedback about access related different parts of project. These may take place at our <a href="https://book.the-turing-way.org/community-handbook/coworking/coworking-collabcafe.html">Collaboration Cafe</a> or may be hosted separately.</li>
+<li><strong>Email us</strong>: You can reach out to the Project Delivery Team by emailing <a href="mailto:turingway@turing.ac.uk">turingway@turing.ac.uk</a>. You can also reach out to <a href="https://github.com/the-turing-way/the-turing-way/blob/main/GOVERNANCE_ROLES.md">specific members of the team</a>.</li>
+<li><strong>Attend the Accessibility Working Group meeting</strong>: The Accessibility Working Group meetings may be a place where you can deliver feedback in a small group environment. As of December 2024, these meetings are held on Zoom on the second Monday of each month at 17:00 UK time. Please <a href="https://calendar.google.com/calendar/u/1/r?cid=dGhldHVyaW5nd2F5QGdtYWlsLmNvbQ">subscribe to the community calendar</a> or <a href="https://calendar.google.com/calendar/ical/theturingway%40gmail.com/public/basic.ics">download the calendar</a> to stay up to date with meeting times. Please join the #Accessibility channel on slack for more information.</li>
+</ol>
+<p>We recognise that oftentimes feedback and evaluation forms operate as ‘blackboxes’ that receive information without taking actionable steps to address them. Knowing this, we are actively working to develop processes that enable us to implement feedback and to report transparently. These may include:</p>
+<ul>
+<li>Reporting within the Accessibility Working Group in order to discuss possible actions that can be taken to address feedback. Currently, this process is under development.</li>
+<li>Liaising with appropriate groups within the <em>Landelijke Docs</em> project (for example, the Infrastructure Working Group) in order to create or resource technical changes that may be needed. Information about these working groups can be found in {ref}<code>subprojects</code>.</li>
+<li>Escalating feedback to the project co-leads, funders, and others at the constitutional level of the project as needed.</li>
+</ul>
+</section>
+</section>
+<section id="confidentiality" class="level2">
+<h2 class="anchored" data-anchor-id="confidentiality">Confidentiality</h2>
+<p>By default, all reports will be kept confidential. If submitted through a non-anonymised option, when the team discusses incidents and feedback, we will anonymise details as much as we can to protect reporter privacy. In some cases we may determine that a public statement will need to be made. If that’s the case, the identities of all victims and reporters will remain confidential unless those individuals instruct us otherwise.</p>
+</section>
+<section id="acknowledging-third-party-platforms" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledging-third-party-platforms">Acknowledging Third-Party Platforms</h2>
+<p>We recognise that our project relies on a number of third party platforms, and that all of these platforms may not be accessible by default. In future iterations of this policy and guidelines, we aim to employ community audits to understand and review the use of these platforms and their commitment and process for accessibility.</p>
+</section>
+<section id="acknowledgements" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
+<p>This Accessibility Policy was created by <em>The Turing Way</em>.</p>
+<p>In developing this policy, we have referred to numerous people who and resources that have developed similar materials.</p>
+<p>Contributors to the initial document are Alexandra Araujo Alvarez, Andrea Sanchez-Tapia, Anne Lee Steele, Arielle Bennett, Chi Zhang, Esther Plomp, Laurel Ascenzi, Harriet Sands, Jesica Formoso, Jim Madge, Léllé Demertzi, Liz Hare, Malvika Sharan, Patricia Loto, Precious Onyewuchi, Richard Acton, Sara Villa, Saranjeet Kaur, Sophia Batchelor, and Tania Allard. Initial drafts of this policy have been made and were documented from 2022 to 2024.</p>
+<p>We also refer to the resources and process of Silvia Canelon’s <a href="https://silviacanelon.com/accessibility">“Accessibility Commitment”</a>, and have reviewed a number of Accessibility and Access-related policies in the drafting of this document. This includes the <a href="https://github.com/ascott1/accessibility-policy">Open Accessibility Policy project</a>, the <a href="https://www.wigan.gov.uk/SitePages/Accessibility-statement.aspx">Wigan Accessibility Statement</a>, <a href="https://www.gov.uk/government/publications/sample-accessibility-statement">gov.uk guidance</a>, and <a href="https://www.metadocencia.org/en/politica_accesibilidad/">Metadocencia’s Accessibility Policy</a>, a resource for accessibility in open science communities.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -193,7 +329,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/landelijke-docs\.github\.io\/page\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -521,6 +657,35 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://codeberg.org/Landelijke-Docs/pages/issues">
+<p>Contact</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://codeberg.org/Landelijke-Docs/pages/src/branch/main/CONTRIBUTING.MD">
+<p>Contribute</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./license.qmd">
+<p>License</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 

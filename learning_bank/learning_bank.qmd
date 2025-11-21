@@ -1,0 +1,39 @@
+---
+toc: true
+listing:
+  id: materials
+  contents: materials
+  feed: true
+  sort: "date desc"
+  type: table
+  fields: [title, date]
+  date-format: long
+  sort-ui: true
+  filter-ui: true
+  max-items: 30
+about:
+  id: about
+  template: solana
+  image: mediabag/images/learning_bank.png
+  image-shape: rounded
+---
+
+:::{#about}
+
+**The learning bank**
+
+Do you want to improve your programming skills and want to use materials created by our partners? Then look no further! 
+
+The learning bank is a free extensive collection of all the materials our partners have shared with the project, use them to teach classes, to teach yourself, to share with others or to edit for your own use. Each has a license reference, so do make sure to credit the creators as specified in the license.
+
+**Join us!** If you want to become a partner or an individual contributor then check out the [contributing page](../contributing.qmd) and join use on [Codeberg](https://codeberg.org/Landelijke-Docs)!
+
+:::
+
+## Materials
+
+Look through the learning materials here and use the filters to find the specific course, guide, article, or walkthrough you're looking for!
+
+
+::: {#materials}
+:::

@@ -3,6 +3,8 @@ title: Landelijke Docs
 format: html
 ---
 
+Make a div and then add background image, remove toolbar for these pages, or make invisible
+
 Welcome to Landelijke Docs, a national effort to collectively produce the clearest and most comprehensive documentation and guides on research software.
 
 
@@ -15,4 +17,26 @@ Welcome to Landelijke Docs, a national effort to collectively produce the cleare
 <br/><br/>
 
 <br/><br/>
+
+Welcome to Landelijke Docs, this is an informal community effort to collect and collate software good practice, guides, and guidelines. The initiative is born out of requests of the support staff to provide guides and instead of every institute having its own version covering every topic in a few years we work together to have one version now. 
+
+This is a living project that is developing and growing all the time. We are starting with a [learning bank](learning_bank/learning_bank.qmd) with courses, presentations, guides, and documentation created by our partners and curated lists of [3rd party resources](learning_bank/3rd_party_res.qmd). The next step is creating clear and readable articles about the core aspects of reseach software and the good practices to follow. Once the basics are covered we will be working with researchers to write guides and articles on the best practice for all topics and fields.
+
+We are always looking for contributors, if you want to know more check out the [contributing](contributions.qmd) page!
+
+<br/><br/>
+
+<br/><br/>
+
+<br/><br/>
+
+<br/><br/>
+
+<br/><br/>
+
+# Partners
+
+A list of the current project partners. Would you like to join? Then contact us!
+
+
 

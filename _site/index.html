@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Landelijke Docs – landelijke-docs</title>
+<title>Landelijke Docs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href=".//site_design/ld_logo.ico" rel="icon">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -39,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bb49951d50c4a7e8d052f44ae1610a34.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cc63fce9873912f1bbbccf05079cc9ea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,8 +80,11 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./site_design/ld_logo.ico" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">landelijke-docs</span>
+    <span class="navbar-title">Landelijke Docs</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -97,9 +101,64 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./why_code.html"> 
+<span class="menu-text">Why should you code?</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./good_practice.html"> 
+<span class="menu-text">Programming Abridged</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./learn.html"> 
+<span class="menu-text">Learn</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-paths" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Paths</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-paths">    
+        <li>
+    <a class="dropdown-item" href="./paths/paths.html">
+ <span class="dropdown-text">Paths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./paths/research_lifecycle.html">
+ <span class="dropdown-text">The Research Lifecycle</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-learning-bank" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Learning Bank</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-learning-bank">    
+        <li>
+    <a class="dropdown-item" href="./learning_bank/learning_bank.html">
+ <span class="dropdown-text">The Learning Bank</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./learning_bank/link_list.html">
+ <span class="dropdown-text">Link List</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./learning_bank/3rd_party_res.html">
+ <span class="dropdown-text">Outside Resources</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./learning_bank/developing.html">
+ <span class="dropdown-text">In Development</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./contributions.html"> 
+<span class="menu-text">Contributing</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+    <a href="https://codeberg.org/Landelijke-Docs/pages" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-/site_design/codeberg_logo.ico"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -108,8 +167,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#partners" id="toc-partners" class="nav-link active" data-scroll-target="#partners">Partners</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -133,14 +198,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Make a div and then add background image, remove toolbar for these pages, or make invisible</p>
 <p>Welcome to Landelijke Docs, a national effort to collectively produce the clearest and most comprehensive documentation and guides on research software.</p>
 <p><br><br></p>
 <p><br><br></p>
 <p><br><br></p>
 <p><br><br></p>
 <p><br><br></p>
+<p>Welcome to Landelijke Docs, this is an informal community effort to collect and collate software good practice, guides, and guidelines. The initiative is born out of requests of the support staff to provide guides and instead of every institute having its own version covering every topic in a few years we work together to have one version now.</p>
+<p>This is a living project that is developing and growing all the time. We are starting with a <a href="./learning_bank/learning_bank.html">learning bank</a> with courses, presentations, guides, and documentation created by our partners and curated lists of <a href="./learning_bank/3rd_party_res.html">3rd party resources</a>. The next step is creating clear and readable articles about the core aspects of reseach software and the good practices to follow. Once the basics are covered we will be working with researchers to write guides and articles on the best practice for all topics and fields.</p>
+<p>We are always looking for contributors, if you want to know more check out the <a href="./contributions.html">contributing</a> page!</p>
+<p><br><br></p>
+<p><br><br></p>
+<p><br><br></p>
+<p><br><br></p>
+<p><br><br></p>
+<section id="partners" class="level1">
+<h1>Partners</h1>
+<p>A list of the current project partners. Would you like to join? Then contact us!</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -215,7 +293,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/landelijke-docs\.github\.io\/page\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -543,6 +621,35 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://codeberg.org/Landelijke-Docs/pages/issues">
+<p>Contact</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://codeberg.org/Landelijke-Docs/pages/src/branch/main/CONTRIBUTING.MD">
+<p>Contribute</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./license.qmd">
+<p>License</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 

@@ -1,6 +1,10 @@
 [
   {
-    "listing": "/chapters.html",
+    "listing": "/learning_bank/learning_bank.html",
+    "items": []
+  },
+  {
+    "listing": "/learn.html",
     "items": []
   }
 ]

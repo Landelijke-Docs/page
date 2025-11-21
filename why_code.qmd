@@ -1,0 +1,34 @@
+---
+title: Why Code?
+format: html
+---
+
+
+If you have come to this page you're already one step towards being convinced, let's help get you over that finish line.
+
+Do you like hoovering?
+
+Have you outsourced this chore?
+
+Do you remember to water your plants?
+
+Have you outsourced this job?
+
+Do you remember to feed your pets at the same time each day?
+
+Have you outsourced this task?
+
+These are all relatively simple tasks that you have to do with enough frequency that you might have considered that it could be automated in some way. 
+
+
+Do you like repeating your analysis?
+
+Have outsourced this role?
+
+In essence programming is outsourcing these boring frequent tasks that we need to do and it ensures that it will be done exactly the same way every time. 
+This could be anything, from a task like setting up the folder for a new project, to filling out forms, to creating graphs from your data, to converting folders of audio files to text. 
+
+
+If you can break something down in to small concrete tasks you can get a computer to do it for you, whether this is building a model for your data, simulating your lab environment, or repeating the 101 plots from your different filters on your dataset. 
+
+To get started check out the [good practice page](good_practice.qmd) or [choose the path](paths/paths.qmd) that works for you!

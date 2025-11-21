@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>code_of_conduct – landelijke-docs</title>
+<title>code_of_conduct – Landelijke Docs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href=".//site_design/ld_logo.ico" rel="icon">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -39,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bb49951d50c4a7e8d052f44ae1610a34.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cc63fce9873912f1bbbccf05079cc9ea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,8 +80,11 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./site_design/ld_logo.ico" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">landelijke-docs</span>
+    <span class="navbar-title">Landelijke Docs</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -97,9 +101,64 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./why_code.html"> 
+<span class="menu-text">Why should you code?</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./good_practice.html"> 
+<span class="menu-text">Programming Abridged</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./learn.html"> 
+<span class="menu-text">Learn</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-paths" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Paths</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-paths">    
+        <li>
+    <a class="dropdown-item" href="./paths/paths.html">
+ <span class="dropdown-text">Paths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./paths/research_lifecycle.html">
+ <span class="dropdown-text">The Research Lifecycle</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-learning-bank" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Learning Bank</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-learning-bank">    
+        <li>
+    <a class="dropdown-item" href="./learning_bank/learning_bank.html">
+ <span class="dropdown-text">The Learning Bank</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./learning_bank/link_list.html">
+ <span class="dropdown-text">Link List</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./learning_bank/3rd_party_res.html">
+ <span class="dropdown-text">Outside Resources</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./learning_bank/developing.html">
+ <span class="dropdown-text">In Development</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./contributions.html"> 
+<span class="menu-text">Contributing</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+    <a href="https://codeberg.org/Landelijke-Docs/pages" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-/site_design/codeberg_logo.ico"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -108,8 +167,42 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#code-of-conduct" id="toc-code-of-conduct" class="nav-link active" data-scroll-target="#code-of-conduct">Code of Conduct</a>
+  <ul class="collapse">
+  <li><a href="#code-of-conduct-overview" id="toc-code-of-conduct-overview" class="nav-link" data-scroll-target="#code-of-conduct-overview">1 Code of Conduct: Overview</a>
+  <ul class="collapse">
+  <li><a href="#contact-for-reporting" id="toc-contact-for-reporting" class="nav-link" data-scroll-target="#contact-for-reporting">Contact for Reporting</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#code-of-conduct-details" id="toc-code-of-conduct-details" class="nav-link" data-scroll-target="#code-of-conduct-details">2 Code of Conduct: Details</a>
+  <ul class="collapse">
+  <li><a href="#expected-behaviour" id="toc-expected-behaviour" class="nav-link" data-scroll-target="#expected-behaviour">2.1 Expected Behaviour</a></li>
+  <li><a href="#unacceptable-behaviour" id="toc-unacceptable-behaviour" class="nav-link" data-scroll-target="#unacceptable-behaviour">2.2 Unacceptable Behaviour</a></li>
+  <li><a href="#consequences-of-unacceptable-behaviour" id="toc-consequences-of-unacceptable-behaviour" class="nav-link" data-scroll-target="#consequences-of-unacceptable-behaviour">2.3 Consequences of Unacceptable Behaviour</a></li>
+  <li><a href="#feedback" id="toc-feedback" class="nav-link" data-scroll-target="#feedback">2.4 Feedback</a></li>
+  </ul></li>
+  <li><a href="#incident-reporting-guidelines" id="toc-incident-reporting-guidelines" class="nav-link" data-scroll-target="#incident-reporting-guidelines">3 Incident Reporting Guidelines</a>
+  <ul class="collapse">
+  <li><a href="#contact-points" id="toc-contact-points" class="nav-link" data-scroll-target="#contact-points">3.1 Contact points</a></li>
+  <li><a href="#alternate-contact-points" id="toc-alternate-contact-points" class="nav-link" data-scroll-target="#alternate-contact-points">3.2 Alternate contact points</a></li>
+  <li><a href="#what-to-do-if-someone-is-in-physical-danger" id="toc-what-to-do-if-someone-is-in-physical-danger" class="nav-link" data-scroll-target="#what-to-do-if-someone-is-in-physical-danger">3.3 What to do if someone is in physical danger</a></li>
+  <li><a href="#code-of-conduct-enforcement" id="toc-code-of-conduct-enforcement" class="nav-link" data-scroll-target="#code-of-conduct-enforcement">3.4 Code of Conduct Enforcement</a></li>
+  </ul></li>
+  <li><a href="#enforcement-manual" id="toc-enforcement-manual" class="nav-link" data-scroll-target="#enforcement-manual">4 Enforcement Manual</a>
+  <ul class="collapse">
+  <li><a href="#urgent-situations-acting-unilaterally" id="toc-urgent-situations-acting-unilaterally" class="nav-link" data-scroll-target="#urgent-situations-acting-unilaterally">4.1 Urgent Situations: Acting Unilaterally</a></li>
+  <li><a href="#less-urgent-situations" id="toc-less-urgent-situations" class="nav-link" data-scroll-target="#less-urgent-situations">4.2 Less-Urgent Situations</a></li>
+  <li><a href="#resolutions" id="toc-resolutions" class="nav-link" data-scroll-target="#resolutions">4.4 Resolutions</a></li>
+  <li><a href="#conflicts-of-interest" id="toc-conflicts-of-interest" class="nav-link" data-scroll-target="#conflicts-of-interest">4.5 Conflicts of Interest</a></li>
+  </ul></li>
+  <li><a href="#acknowledgement" id="toc-acknowledgement" class="nav-link" data-scroll-target="#acknowledgement">5 Acknowledgement</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
@@ -117,8 +210,146 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<section id="code-of-conduct" class="level1">
+<h1>Code of Conduct</h1>
+<p>We value the participation of every member of our community and want to ensure that every contributor has an enjoyable and fulfilling experience. Accordingly, everyone who participates in the Landelijke Docs project is expected to show respect and courtesy to other community members at all times.</p>
+<p>The <em>Landelijke Docs</em> community is dedicated to a <strong><em>welcoming and harassment-free experience for everyone</em></strong>, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. <strong>We do not tolerate harassment by and/or of members of our community in any form</strong>.</p>
+<p>We are particularly motivated to support new and/or anxious collaborators, people who are looking to learn and develop their skills, and anyone who has experienced discrimination in the past.</p>
+<p>To make clear what is expected, we ask all members of the community to conform to the following Code of Conduct.</p>
+<p>The Code of Conduct document has been written in 4 parts: Overview, Details, Reporting and Enforcement.</p>
+<p>The last part acknowledges all sources that this Code of Conduct has been built upon.</p>
+<section id="code-of-conduct-overview" class="level2">
+<h2 class="anchored" data-anchor-id="code-of-conduct-overview">1 Code of Conduct: Overview</h2>
+<p>Landelijke Docs is a community-oriented and -led project. We value the involvement of everyone in the community. We are committed to creating a friendly and respectful place for learning, teaching and contributing. All participants in our in-person events and online communications are expected to show respect and courtesy to others at all times.</p>
+<p>To make clear what is expected, everyone participating in activities associated with the Landelijke Docs project is required to conform to this Code of Conduct. This Code of Conduct applies to all spaces managed by the Landelijke Docs project including, but not limited to, in-person focus groups and workshops, and communications online via Codeberg.</p>
+<section id="contact-for-reporting" class="level3">
+<h3 class="anchored" data-anchor-id="contact-for-reporting">Contact for Reporting</h3>
+<p>The <em>Landelijke Docs</em> project delivery team, listed in the <a href="https://github.com/the-turing-way/the-turing-way/blob/main/GOVERNANCE_ROLES.md">Governance Roles documentation</a>, are responsible for enforcing the Code of Conduct.</p>
+<p>Please email <a href="mailto:turingway@turing.ac.uk">turingway@turing.ac.uk</a>.</p>
+<p>You can reach out to specific members of the team for support in making a report to the project leads on your behalf, with or without your name associated with it.</p>
+<p>Reports may be reviewed by other members of the core development team, unless there is a conflict of interest, and will be kept confidential.</p>
+</section>
+</section>
+</section>
+<section id="code-of-conduct-details" class="level1">
+<h1>2 Code of Conduct: Details</h1>
+<p>The Landelijke Docs team are dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity. As such, we do not tolerate behaviour that is disrespectful to our community members or that excludes, intimidates, or causes discomfort to others. We do not tolerate discrimination or harassment based on characteristics that include, but are not limited to: gender identity and expression, sexual orientation, disability, physical appearance, body size, citizenship, nationality, ethnic or social origin, pregnancy, familial status, veteran status, genetic information, religion or belief (or lack thereof), membership of a national minority, property, age, education, socio-economic status, technical choices, and experience level.</p>
+<p>Everyone who participates in the Landelijke Docs project activities is required to conform to this Code of Conduct. This Code of Conduct applies to all spaces managed by the Landelijke Docs project including, but not limited to, in-person focus groups and workshops, and communications online via Codeberg. By participating, contributors indicate their acceptance of the procedures by which the Landelijke Docs project core development team resolves any Code of Conduct incidents, which may include the storage and processing of their personal information.</p>
+<section id="expected-behaviour" class="level2">
+<h2 class="anchored" data-anchor-id="expected-behaviour">2.1 Expected Behaviour</h2>
+<p>We are confident that our community members will together build a supportive and collaborative atmosphere at our events and during online communications. The following bullet points set out explicitly what we hope you will consider to be appropriate community guidelines:</p>
+<ul>
+<li><strong>Be respectful of different viewpoints and experiences</strong>. Do not engage in homophobic, racist, transphobic, ageist, ableist, sexist, or otherwise exclusionary behaviour.</li>
+<li><strong>Use welcoming and inclusive language</strong>. Exclusionary comments or jokes, threats or violent language are not acceptable. Do not address others in an angry, intimidating, or demeaning manner. Be considerate of the ways the words you choose may impact others. Be patient and respectful of the fact that English is a second (or third or fourth!) language for some participants.</li>
+<li><strong>Do not harass people</strong>. Harassment includes unwanted physical contact, sexual attention, or repeated social contact. Know that consent is explicit, conscious and continuous—not implied. If you are unsure whether your behaviour towards another person is welcome, ask them. If someone tells you to stop, do so.</li>
+<li><strong>Respect the privacy and safety of others</strong>. Do not take photographs of others without their permission. Do not share other participants’ personal experiences without their express permission. Note that posting (or threatening to post) personally identifying information of others without their consent (“doxing”) is a form of harassment.</li>
+<li><strong>Be considerate of others’ participation</strong>. Everyone should have an opportunity to be heard. In update sessions, please keep comments succinct so as to allow maximum engagement by all participants. Do not interrupt others on the basis of disagreement; hold such comments until they have finished speaking.</li>
+<li><strong>Don’t be a bystander</strong>. If you see something inappropriate happening, speak up. If you don’t feel comfortable intervening but feel someone should, please feel free to ask a member of the Code of Conduct response team for support.</li>
+<li>As an overriding general rule, please <strong>be intentional in your actions and humble in your mistakes</strong>.</li>
+</ul>
+<p>All interactions should be professional regardless of platform: either online or in-person. See <a href="https://www.recurse.com/manual#sub-sec-social-rules">this explanation of the four social rules</a> - no feigning surprise, no well-actually’s, no back-seat driving, no subtle -isms - for further recommendations for inclusive behaviours.</p>
+</section>
+<section id="unacceptable-behaviour" class="level2">
+<h2 class="anchored" data-anchor-id="unacceptable-behaviour">2.2 Unacceptable Behaviour</h2>
+<p>Examples of unacceptable behaviour by Turing Way community members at any project event or platform include:</p>
+<ul>
+<li>written or verbal comments which have the effect of excluding people on the basis of membership in any specific group</li>
+<li>causing someone to fear for their safety, such as through stalking, following, or intimidation</li>
+<li>violent threats or language directed against another person</li>
+<li>the display of sexual or violent images</li>
+<li>unwelcome sexual attention</li>
+<li>nonconsensual or unwelcome physical contact</li>
+<li>sustained disruption of talks, events or communications</li>
+<li>insults or put-downs</li>
+<li>sexist, racist, homophobic, transphobic, ableist, or exclusionary jokes</li>
+<li>excessive swearing</li>
+<li>incitement to violence, suicide, or self-harm</li>
+<li>continuing to initiate interaction (including photography or recording) with someone after being asked to stop</li>
+<li>publication of private communication without consent</li>
+</ul>
+</section>
+<section id="consequences-of-unacceptable-behaviour" class="level2">
+<h2 class="anchored" data-anchor-id="consequences-of-unacceptable-behaviour">2.3 Consequences of Unacceptable Behaviour</h2>
+<p>Participants who are asked to stop any inappropriate behaviour are expected to comply immediately. This applies to all Turing Way community events and platforms, either online or in-person. If a participant engages in behaviour that violates this Code of Conduct, any member of the core development team may warn the offender, ask them to leave the event or platform (without refund), or impose any other appropriate sanctions (see the enforcement manual for details).</p>
+</section>
+<section id="feedback" class="level2">
+<h2 class="anchored" data-anchor-id="feedback">2.4 Feedback</h2>
+<p>This Code of Conduct is not intended as a static set of rules by which everyone must abide. Rather, you are invited to make suggestions for updates or clarifications by contacting the <em>Landelijke Docs</em> Project Delivery Team by making a pull request to this document on Codeberg or raising it as an issue.</p>
+</section>
+</section>
+<section id="incident-reporting-guidelines" class="level1">
+<h1>3 Incident Reporting Guidelines</h1>
+<section id="contact-points" class="level2">
+<h2 class="anchored" data-anchor-id="contact-points">3.1 Contact points</h2>
+<p>If you feel able to, please contact <em>Landelijke Docs</em> project delivery team by emailing <a href="mailto:turingway@turing.ac.uk">turingway@turing.ac.uk</a> who is responsible for enforcing the Code of Conduct. You can directly contact the senior members of the team listed in the <a href="https://github.com/the-turing-way/the-turing-way/blob/main/GOVERNANCE_ROLES.md">Governance Roles documentation</a>.</p>
+</section>
+<section id="alternate-contact-points" class="level2">
+<h2 class="anchored" data-anchor-id="alternate-contact-points">3.2 Alternate contact points</h2>
+<p>You can reach out to our Research Community Manager and Research Project Manager listed in the <a href="https://github.com/the-turing-way/the-turing-way/blob/main/GOVERNANCE_ROLES.md">Governance Roles documentation</a>, for support in making a report to the project leads on your behalf or anonymously.</p>
+</section>
+<section id="what-to-do-if-someone-is-in-physical-danger" class="level2">
+<h2 class="anchored" data-anchor-id="what-to-do-if-someone-is-in-physical-danger">3.3 What to do if someone is in physical danger</h2>
+<p>If you believe someone is in physical danger, please contact the appropriate emergency responders.</p>
+</section>
+<section id="code-of-conduct-enforcement" class="level2">
+<h2 class="anchored" data-anchor-id="code-of-conduct-enforcement">3.4 Code of Conduct Enforcement</h2>
+<p>A detailed enforcement policy is available in the Enforcement Manual.</p>
+</section>
+</section>
+<section id="enforcement-manual" class="level1">
+<h1>4 Enforcement Manual</h1>
+<p>This is the enforcement manual used by the Code of Conduct Committee when they respond to an issue to make sure they are consistent and fair. Enforcement of the Code of Conduct should be respectful and not include any harassing behaviours.</p>
+<section id="urgent-situations-acting-unilaterally" class="level2">
+<h2 class="anchored" data-anchor-id="urgent-situations-acting-unilaterally">4.1 Urgent Situations: Acting Unilaterally</h2>
+<p>If the incident involves physical danger or involves a threat to anyone’s safety (such as threats of violence), any member of the community may – and should – act unilaterally to protect the safety of any community member. This can include contacting law enforcement (or other local personnel) and speaking on behalf of Landelijke Docs team.</p>
+<p>If the act is ongoing, any community member may act immediately, before reaching a consensus, to diffuse the situation. In ongoing situations, any member may at their discretion employ any of the tools available in this enforcement manual, including bans and blocks online, or removal from a physical space.</p>
+<p>In situations where an individual community member acts unilaterally, they must inform the committee as soon as possible, and report their actions for review within 24 hours.</p>
+</section>
+<section id="less-urgent-situations" class="level2">
+<h2 class="anchored" data-anchor-id="less-urgent-situations">4.2 Less-Urgent Situations</h2>
+<p>Upon receiving a report of an incident, the CoC committee will review the incident and determine, to the best of their ability:</p>
+<ul>
+<li>whether this is an ongoing situation</li>
+<li>whether there is a threat to anyone’s physical safety</li>
+<li>what happened</li>
+<li>whether this event constitutes a Code of Conduct violation</li>
+<li>who, if anyone, was the bad actor</li>
+</ul>
+<p>This information will be collected either in person or in writing. The CoC committee will provide a written summary of the information surrounding the incident. All participants will be anonymised in the summary report, referred to as “Community Member 1”, “Community Member 2”, or “Research Team Member 1”. The “de-anonymising key” will be kept in a separate file and only accessed to link repeated reports against the same person over time.</p>
+<p>The CoC committee will aim to have a resolution agreed upon within one week. In the event that a resolution can’t be determined in that time, a member of the CoC committee will respond to the reporter(s) with an update and projected timeline for resolution.</p>
+</section>
+<section id="resolutions" class="level2">
+<h2 class="anchored" data-anchor-id="resolutions">4.4 Resolutions</h2>
+<p>The CoC committee will seek to agree on a resolution by consensus of all members investigating the report in question.</p>
+<p>Possible responses may include:</p>
+<ul>
+<li>A mediated conversation or agreement between the impacted community members.</li>
+<li>A request for a verbal or written apology, public or private, from a community member.</li>
+<li>A public announcement clarifying community responsibilities under the Code of Conduct.</li>
+<li>Nothing, if the issue reported is not a violation or outside of the scope of this Code of Conduct.</li>
+<li>A private in-person conversation between a member of the committee and the individual(s) involved. In this case, the person who has the conversation will provide a written summary for record keeping.</li>
+<li>A private written reprimand from a member of the committee to the individual(s) involved. In this case, the committee member will deliver that reprimand to the individual(s) over email for record keeping.</li>
+<li>A public announcement of an incident, ideally in the same venue that the violation occurred (such as on the listserv for a listserv violation; and Codeberg for a Codeberg violation). The committee may choose to publish this message elsewhere for posterity.</li>
+<li>An imposed “time out” from online spaces. Committee members will communicate this “time out” to the individual(s) involved.</li>
+<li>A permanent or temporary ban from some or all Landelijke Docs project spaces (like on Codeberg, online calls or in-person events). The committee will maintain records of all such bans so that they may be reviewed in the future, extended to a Code of Conduct safety team as it is built, or otherwise maintained. If a member of the community is removed from an event they will not be reimbursed for any part of the event that they miss.</li>
+</ul>
+<p>Once a resolution is agreed upon, but before it is enacted, a member of the CoC committee will contact the original reporter and any other affected parties and explain the proposed resolution. The CoC committee member will ask if this resolution is acceptable, and must note feedback for the record. However, the CoC committee is not required to act on this feedback.</p>
+</section>
+<section id="conflicts-of-interest" class="level2">
+<h2 class="anchored" data-anchor-id="conflicts-of-interest">4.5 Conflicts of Interest</h2>
+<p>If the report is about someone is the committee, please send the report to the other individuals on the committee.</p>
+</section>
+</section>
+<section id="acknowledgement" class="level1">
+<h1>5 Acknowledgement</h1>
+<p>This code is adapted from the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Carpentries Code of Conduct</a> with sections from the <a href="https://docs.google.com/document/d/1iv2cizNPUwtEhHqaezAzjIoKkaIX02f7XbYmFMXDTGY/edit">Alan Turing Institute Data Study Group Code of Conduct</a>. Both are used under the creative commons attribution license.</p>
+<p>The Carpentries Code of Conduct was adapted from guidelines written by the <a href="https://www.djangoproject.com/conduct/enforcement-manual/">Django Project</a>, which was itself based on the <a href="http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Responding_to_reports">Ada Initiative template</a> and the <a href="https://us.pycon.org/2013/about/code-of-conduct/harassment-incidents/">PyCon 2013 Procedure for Handling Harassment Incidents</a>. Contributors to the initial document are Adam Obeng, Aleksandra Pawlik, Bill Mills, Carol Willing, Erin Becker, Hilmar Lapp, Kara Woo, Karin Lagesen, Pauline Barmby, Sheila Miguez, Simon Waldman, and Tracy Teal. In 2018, the Code of Conduct was revised to add a summary, straightforward examples of both beneficial and unwanted behaviors, and evaluating intent. Reporting guidelines were also revised to include alternate contact points and a reporting form with the procedure was added. Contributors of these revised documents are Ethan White, Kari L. Jordan, Karin Lagesen, Malvika Sharan, Samantha Ahern, and Simon Waldman. Additional language was added by Otter Tech from the PyCon U.S. 2018 Code of Conduct (licensed CC BY 3.0).</p>
+<p>The Turing Institute Data Study Group Code of Conduct was heavily adapted from the <a href="https://citizenlab.ca/summerinstitute/codeofconduct.html">Citizen Lab Summer Institute 2017 Code of Conduct</a> and used under a CC BY 2.5 CA license. Citizen Lab based their Code of Conduct on the <a href="http://xvzf.io/#coc">xvzf Code of Conduct</a>, the <a href="http://contributor-covenant.org/">Contributor Covenant</a>, the <a href="https://www.djangoproject.com/conduct/">Django Code of Conduct and Reporting Guide</a> and we are also grateful for <a href="http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Responding_to_reports">this guidance from Ada Initiative</a>.</p>
+<p>We really appreciate the work that all of the communities linked above have put into creating such a well considered process.</p>
+<p>This Code of Conduct is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a> (CC BY 4.0 CA) license which means you are free to share and adapt the work so long as the attribution to <em>The Turing Way</em> community is retained, along with the attribution to the Carpentries, the Alan Turing Institute Data Study Group organising team, Citizen Lab and the other resources.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -193,7 +424,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/landelijke-docs\.github\.io\/page\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -521,6 +752,35 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://codeberg.org/Landelijke-Docs/pages/issues">
+<p>Contact</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://codeberg.org/Landelijke-Docs/pages/src/branch/main/CONTRIBUTING.MD">
+<p>Contribute</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./license.qmd">
+<p>License</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 
