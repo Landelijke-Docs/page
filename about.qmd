@@ -2,4 +2,40 @@
 title: "About"
 ---
 
-About this site
+Welcome to Landelijke Docs, this is an informal community effort to collect and collate software good practice, guides, and guidelines. 
+
+The initiative is born out of the need for each institute to have these courses and guidelines for researchers and students alike and the desire to avoid repeating the same work at every institution. There are contributors from all sorts of research institutions and roles as well as those outside academia. The aim is to gather all the software related resources that are being produced both inside and outside of academia and, like the coding DJs we are, cut and chop them up into a best of while providing links to the originals. Articles are to be written based on writing principles proven to be accessible for those with Dyslexia and or ADHD. 
+
+For the contributors we aim to build a community and network where people can give tips and insights on what worked, what didn't, present for each other, and share our teaching materials. 
+
+The initiative is an ambitious one, but why not aim for the moon?
+
+# Project Goals
+
+-  Encourage engagement with existing platforms to promote the re-use and adaptation of existing training materials related toto research software 
+
+-   Expand written documentation and guides for research software  
+
+-   Connect support staff and research software engineers with community initiatives to improve peer support and inter-institutional collaboration.
+
+<br/><br/>
+
+There are several stages to the plan and in the interest of keeping visitors up to date and attracting contributors we have an approximate development path:
+
+<br/><br/>
+
+1.  Gather learning materials and populate the [learning bank](learning_bank/learning_bank.qmd)
+    i)  guides
+    ii) courses
+    iii)    presentations
+    iv) cheat sheets
+    v)  self learning materials
+    vi) links to 3rd party resources 
+
+2.  Create introductory level articles using the best of the learning bank
+
+3.  Create paths (selections of articles relevant to a role or type of project) using the articles
+
+4.  Allow partners to create programmes (institution made paths)
+
+5.  Partner with researchers to begin writing intermediate and expert level articles on their field and their standards

@@ -6,6 +6,7 @@ website:
   title: "Landelijke Docs"
   favicon: "/site_design/ld_logo.ico"
   page-footer:
+    background: "transparent"
     center: 
       - text: "Contact"
         href: "https://codeberg.org/Landelijke-Docs/pages/issues"
@@ -14,6 +15,8 @@ website:
       - text: "License"
         href: license.qmd
   navbar:
+    background: "transparent"
+    foreground: "#000000"
     logo: "/site_design/ld_logo.ico"
     left:
       - href: index.qmd
