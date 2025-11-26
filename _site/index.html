@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href=".//site_design/ld_logo.ico" rel="icon">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -40,7 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2b49e85010c8cabbdbc98365ef979fef.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9be22175e5ef1b326727273af5b94aaf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,6 +73,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing-gallery .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-filename','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-filename","listing-file-modified"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing-gallery'] = new List('listing-listing-gallery', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>
 
       .quarto-title-block .quarto-title-banner {
@@ -98,6 +132,12 @@ background-size: cover;
         color: #cccccc; /* Optional: change hover color */
     }
 
+    .navbar .dropdown-menu {
+        background-color: rgba(56, 7, 146, 0.7);
+        color: #ffffff;
+        border-color: rgba(1, 4, 34, 1);
+    }
+
     #title-block-header {
         background:
             url(./site_design/banner.png);
@@ -118,13 +158,79 @@ background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
+
+    .banner-text {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translateY(-50%)'
+        font-weight: bold
+        color: #ffffff;
+        font-size: 1.5em;
+        text-align: left;
+        padding: 20px;
+        z-index: 1;
+        line-height: 1.5;
+    }
+
+    .banner-text p{
+        padding left: 0;
+    }
+
+    .banner-text p:nth-child(2) {
+        padding-left: 60px;
+    }
+
+    .banner-text p:nth-child(3) {
+        padding-left: 120px;
+    }
+
+    .banner-text p:nth-child(4) {
+        padding-left: 180px;
+    }
 </style>
 
+</head><body class="nav-fixed quarto-light"><div class="banner-text">
+    <p>Welcome to Landelijke Docs,</p>
+    <p> a national effort to collectively produce</p>
+    <p> the clearest and most comprehensive </p>
+    <p>documentation and guides on research software.</p>
+</div>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
-</head>
 
-<body class="nav-fixed quarto-light">
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -233,23 +339,72 @@ background-size: cover;
 
 
 
-<p>Welcome to Landelijke Docs, a national effort to collectively produce the clearest and most comprehensive documentation and guides on research software. Welcome to Landelijke Docs, a national effort to collectively produce the clearest and most comprehensive documentation and guides on research software.</p>
-<p><br><br></p>
-<p><br><br></p>
-<p><br><br></p>
-<p><br><br></p>
-<p><br><br></p>
-<p>Welcome to Landelijke Docs, this is an informal community effort to collect and collate software good practice, guides, and guidelines. The initiative is born out of requests of the support staff to provide guides and instead of every institute having its own version covering every topic in a few years we work together to have one version now.</p>
+<p>Welcome to Landelijke Docs! This is an informal community effort to collect and collate software good practice, guides, and guidelines. The initiative is born out of requests of the support staff to provide guides and instead of every institute having its own version covering every topic in a few years we work together to have one version now.</p>
 <p>This is a living project that is developing and growing all the time. We are starting with a <a href="./learning_bank/learning_bank.html">learning bank</a> with courses, presentations, guides, and documentation created by our partners and curated lists of <a href="./learning_bank/3rd_party_res.html">3rd party resources</a>. The next step is creating clear and readable articles about the core aspects of reseach software and the good practices to follow. Once the basics are covered we will be working with researchers to write guides and articles on the best practice for all topics and fields.</p>
 <p>We are always looking for contributors, if you want to know more check out the <a href="./contributions.html">contributing</a> page!</p>
 <p><br><br></p>
 <p><br><br></p>
-<p><br><br></p>
-<p><br><br></p>
-<p><br><br></p>
 <section id="partners" class="level1">
 <h1>Partners</h1>
-<p>A list of the current project partners. Would you like to join? Then contact us!</p>
+<p>A list of the current project partners. Would you like to join? Then <a href="https://codeberg.org/Landelijke-Docs/pages/issues">contact us</a>!</p>
+<div id="listing-listing-gallery" class="quarto-listing quarto-listing-container-custom">
+<style type="text/css">
+.grid-gallery {
+  columns: 5 200px;
+  column-gap: 0.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+.grid-item {
+  width: 150px;
+  margin: 0 0.5rem 0.5rem 0;
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+}
+img.grid-item {
+  width: 100%;
+  transition: all .25s ease-in-out;
+}
+img.grid-item:hover {
+  transform: scale(1.025);
+}
+</style>
+<div class="grid-gallery">
+<div>
+<p><a href=".\mediabag\logos\VU.png" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\mediabag\logos\VU.png" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\mediabag\logos\dcc-po.png" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\mediabag\logos\dcc-po.png" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\mediabag\logos\hanze.png" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\mediabag\logos\hanze.png" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\mediabag\logos\tilburg.png" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\mediabag\logos\tilburg.png" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\mediabag\logos\Maastricht.svg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\mediabag\logos\Maastricht.svg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\mediabag\logos\erasmus.svg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\mediabag\logos\erasmus.svg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\mediabag\logos\escience.svg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\mediabag\logos\escience.svg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\mediabag\logos\radboud.svg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\mediabag\logos\radboud.svg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\mediabag\logos\uTwente.svg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\mediabag\logos\uTwente.svg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+<div>
+<p><a href=".\mediabag\logos\umcg.svg" class="lightbox" data-gallery="quarto-grid-gallery"><img src=".\mediabag\logos\umcg.svg" class="grid-item img-fluid" loading="lazy"></a></p>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+
 
 
 </section>
@@ -684,6 +839,38 @@ background-size: cover;
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

@@ -51,8 +51,5 @@ come.
 - Make metadata template for courses & materials
 - Add difficulty, fundamental, ease of learning to metadata
 - Get CC license and link to it in footer
-- add gallery containing partner institution logos
-- Fix the tag line to be placed over banner
 - fix codeberg icon to exist in the navbar
 - fix font size issue
-- fix white box w/ white text on landing page

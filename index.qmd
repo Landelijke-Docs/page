@@ -1,8 +1,17 @@
 ---
 format:
     html
-fontsize: "20"
+fontsize: "1em"
 fontcolor: white
+listing:
+    id: listing-gallery
+    template: gallery.ejs
+    contents:
+        - mediabag/logos/*.png
+        - mediabag/logos/*.svg
+    sort-ui: false
+    filter-ui: false
+    categories: false
 title-block-banner: "site_design/banner.png"
 include-in-header:
     - text: |
@@ -29,6 +38,12 @@ include-in-header:
                 color: #cccccc; /* Optional: change hover color */
             }
 
+            .navbar .dropdown-menu {
+                background-color: rgba(56, 7, 146, 0.7); 
+                color: #ffffff;      
+                border-color: rgba(1, 4, 34, 1); 
+            }
+
             #title-block-header {
                 background:
                     url(./site_design/banner.png);
@@ -49,34 +64,53 @@ include-in-header:
                 background-repeat: no-repeat;
                 background-attachment: fixed;
             }
+
+            .banner-text {
+                position: absolute;
+                top: 50%;
+                left: 40%;
+                transform: translateY(-50%)'
+                font-weight: bold
+                color: #ffffff;
+                font-size: 1.5em;
+                text-align: left;
+                padding: 20px;
+                z-index: 1;
+                line-height: 1.5;
+            }
+
+            .banner-text p{
+                padding left: 0;
+            }
+
+            .banner-text p:nth-child(2) {
+                padding-left: 60px;
+            }
+
+            .banner-text p:nth-child(3) {
+                padding-left: 120px;
+            }
+
+            .banner-text p:nth-child(4) {
+                padding-left: 180px;
+            }
         </style>
+
+        <div class="banner-text">
+            <p>Welcome to Landelijke Docs,</p>
+            <p> a national effort to collectively produce</p>
+            <p> the clearest and most comprehensive </p>
+            <p>documentation and guides on research software.</p>
+        </div>
 ---
 
-Welcome to Landelijke Docs, a national effort to collectively produce the clearest and most comprehensive documentation and guides on research software.
-Welcome to Landelijke Docs, a national effort to collectively produce the clearest and most comprehensive documentation and guides on research software.
 
-
-<br/><br/>
-
-<br/><br/>
-
-<br/><br/>
-
-<br/><br/>
-
-<br/><br/>
-
-Welcome to Landelijke Docs, this is an informal community effort to collect and collate software good practice, guides, and guidelines. The initiative is born out of requests of the support staff to provide guides and instead of every institute having its own version covering every topic in a few years we work together to have one version now. 
+Welcome to Landelijke Docs! This is an informal community effort to collect and collate software good practice, guides, and guidelines. The initiative is born out of requests of the support staff to provide guides and instead of every institute having its own version covering every topic in a few years we work together to have one version now. 
 
 This is a living project that is developing and growing all the time. We are starting with a [learning bank](learning_bank/learning_bank.qmd) with courses, presentations, guides, and documentation created by our partners and curated lists of [3rd party resources](learning_bank/3rd_party_res.qmd). The next step is creating clear and readable articles about the core aspects of reseach software and the good practices to follow. Once the basics are covered we will be working with researchers to write guides and articles on the best practice for all topics and fields.
 
 We are always looking for contributors, if you want to know more check out the [contributing](contributions.qmd) page!
 
-<br/><br/>
-
-<br/><br/>
-
-<br/><br/>
 
 <br/><br/>
 
@@ -84,7 +118,8 @@ We are always looking for contributors, if you want to know more check out the [
 
 # Partners
 
-A list of the current project partners. Would you like to join? Then contact us!
+A list of the current project partners. Would you like to join? Then [contact us](https://codeberg.org/Landelijke-Docs/pages/issues)!
 
-
+::: {#listing-gallery}
+:::
 

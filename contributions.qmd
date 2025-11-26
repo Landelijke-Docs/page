@@ -39,12 +39,67 @@ We basically welcome any kind of feedback and contribution, including but not li
 
 # How is the content organized?
 
-We provide content in three forms:
+We provide content in five categories:
 
-*   Building Blocks are concepts in small doses, the DNA of our platform. They are small code snippets that users can independently "mix" to create something unique, like LEGO bricks. These allow us to explain the theory while also providing some practical examples and code snippets for a variety of programming languages or operating systems. Information is explained in a way that it is easy to clone or implement in an existing project. While everybody can follow our Building Blocks, they are generally more appealing to advanced users – or those who already know what to look for.
+*   Articles are concepts in small doses, the DNA of our platform. They are short guides on a subtopic teaching fundamental concepts in software development. Information is explained in a way that it is easy to clone or implement in an existing project. While everybody can follow our articles, they are generally more appealing to advanced users – or those who already know what to look for.
 
-*   Tutorials explain a broader argument compared to Building Blocks, and follow a sequential order. They teach our users how to combine individual building blocks into a "final product". These are particularly useful for novices or anyone new to a certain topic because of their comprehensive nature and step-by-step guidance. We support and encourage the use of videos, exercises, and quizzes in a tutorial.
+*   Paths are collections of articles relevant to a role or type of project that will be interspersed with examples for learners to follow. 
 
-*   Examples are real-life cases, publications, templates, or research projects that put into practice the concepts explained on this website.
+*   Programmes are institution crafted paths. Some institutions might prefer their own materials or think that more or fewer article should be in a path.
+
+*   The Learning Bank contains all learning resources created by our partners and contributors.
+
+*   Outside resources, a list of organised links for 3rd party resources that contributors have found to be useful and well written/spoken/filmed.
+
 
 # TODO list
+
+
+-_-_-_- Dev work -_-_-_-
+
+- Add pdf viewing for learning bank
+- Create upload age to avoid needing a codeberg account and knowledge on forking
+- connect to turing way
+- connect to taxila
+- connect to escience center
+- add embedded notebooks
+- add embedded r coding
+- integrate reading level check tools as part of actions (hemmingway/gunning fog index)
+
+******* Design work *******
+
+- Create set of graphics to use in articles
+- Create graphics to break up reading lots of articles
+- Beautify site
+
+<><><>< Writing ><><><>
+
+- articles from basics topics
+- niche topics with best practice
+- homeworks
+- Quizzes?
+- update sales pitch to presentation others can re-use
+
+<^><^><^> Structure <^><^><^>
+
+- Create paths page
+- Create programmes (institute specific paths)
+- Make learning bank page, link all files pdfs, pngs, txts, and docs found in the folder
+- Make 3rd party resource page, add categories/filters (maybe use quarto listing?)
+- Form topic list
+- Form subtopic list
+- Make project path page
+- Make contributing page w/ todo list
+- make a guide template
+- make a programme template
+- update article/subtopic template
+- Fix up the documentation style guide as an example
+- set up email address
+- Refine CoC, contributing, and accessbility and credit as desired by license
+- Add in development section to learning bank
+- Link the todo list to the Codeberg issues
+- Make metadata template for courses & materials
+- Add difficulty, fundamental, ease of learning to metadata
+- Get CC license and link to it in footer
+- fix codeberg icon to exist in the navbar
+- fix font size issue
