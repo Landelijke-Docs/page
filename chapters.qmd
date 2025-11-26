@@ -1,6 +1,0 @@
----
-title: "Chapters"
-listing:
-  contents: chapters
-  type: table
----
