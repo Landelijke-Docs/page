@@ -53,3 +53,5 @@ come.
 - Get CC license and link to it in footer
 - fix codeberg icon to exist in the navbar
 - fix font size issue
+- Add path for how to contribute to a project
+- Add all roles in the Codeberg repo
