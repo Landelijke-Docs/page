@@ -39,7 +39,7 @@ We basically welcome any kind of feedback and contribution, including but not li
 
 # How is the content organized?
 
-We provide content in five categories:
+We currently provide content in five categories:
 
 *   Articles are concepts in small doses, the DNA of our platform. They are short guides on a subtopic teaching fundamental concepts in software development. Information is explained in a way that it is easy to clone or implement in an existing project. While everybody can follow our articles, they are generally more appealing to advanced users – or those who already know what to look for.
 
@@ -57,49 +57,54 @@ We provide content in five categories:
 
 -_-_-_- Dev work -_-_-_-
 
-- Add pdf viewing for learning bank
-- Create upload age to avoid needing a codeberg account and knowledge on forking
-- connect to turing way
-- connect to taxila
-- connect to escience center
-- add embedded notebooks
-- add embedded r coding
-- integrate reading level check tools as part of actions (hemmingway/gunning fog index)
+- [Add pdf viewing for learning bank](https://codeberg.org/Landelijke-Docs/pages/issues/1)
+- [Create upload page to avoid needing a codeberg account and knowledge on forking](https://codeberg.org/Landelijke-Docs/pages/issues/2)
+- [connect to turing way](https://codeberg.org/Landelijke-Docs/pages/issues/3)
+- [connect to taxila](https://codeberg.org/Landelijke-Docs/pages/issues/4)
+- [connect to escience center](https://codeberg.org/Landelijke-Docs/pages/issues/5)
+- [add embedded notebooks](https://codeberg.org/Landelijke-Docs/pages/issues/6)
+- [Create options for including (R) Shiny in pages](https://codeberg.org/Landelijke-Docs/pages/issues/7)
+- [add embedded r coding](https://codeberg.org/Landelijke-Docs/pages/issues/8)
+- [integrate reading level check tools as part of actions (hemmingway/gunning fog index)](https://codeberg.org/Landelijke-Docs/pages/issues/9)
+- [Create a tool to convert powerpoint to pdf or html ready for integration](https://codeberg.org/Landelijke-Docs/pages/issues/10)
 
 ******* Design work *******
 
-- Create set of graphics to use in articles
-- Create graphics to break up reading lots of articles
-- Beautify site
+- Create set of graphics to use in articles [1](https://codeberg.org/Landelijke-Docs/pages/issues/11), [2](https://codeberg.org/Landelijke-Docs/pages/issues/12)
+- [Create graphics to break up reading lots of articles](https://codeberg.org/Landelijke-Docs/pages/issues/13)
+- [Beautify site](https://codeberg.org/Landelijke-Docs/pages/issues/14)
+- [Review the UI of the site](https://codeberg.org/Landelijke-Docs/pages/issues/15)
+- [Write up YAML to allow Codeberg actions to automate commit to website process and hosting in Codeberg pages](https://codeberg.org/Landelijke-Docs/pages/issues/33)
+- [Create tool to allow contributors to make quizzes](https://codeberg.org/Landelijke-Docs/pages/issues/36)
 
 <><><>< Writing ><><><>
 
 - articles from basics topics
 - niche topics with best practice
 - homeworks
-- Quizzes?
-- update sales pitch to presentation others can re-use
+- Quizzes
+- [update sales pitch to presentation others can re-use](https://codeberg.org/Landelijke-Docs/pages/issues/37)
+- [Add a guide on how to contribute to a course](https://codeberg.org/Landelijke-Docs/pages/issues/34)
+- [Refine CoC and credit as desired by license](https://codeberg.org/Landelijke-Docs/pages/issues/28)
+- [Refine the contributing doc and credit as desired by license](https://codeberg.org/Landelijke-Docs/pages/issues/39)
+- [Refine the  accessbility doc and credit as desired by license](https://codeberg.org/Landelijke-Docs/pages/issues/40)
 
 <^><^><^> Structure <^><^><^>
 
-- Create paths page
-- Create programmes (institute specific paths)
-- Make learning bank page, link all files pdfs, pngs, txts, and docs found in the folder
-- Make 3rd party resource page, add categories/filters (maybe use quarto listing?)
-- Form topic list
-- Form subtopic list
-- Make project path page
-- Make contributing page w/ todo list
-- make a guide template
-- make a programme template
-- update article/subtopic template
-- Fix up the documentation style guide as an example
-- set up email address
-- Refine CoC, contributing, and accessbility and credit as desired by license
-- Add in development section to learning bank
-- Link the todo list to the Codeberg issues
-- Make metadata template for courses & materials
-- Add difficulty, fundamental, ease of learning to metadata
-- Get CC license and link to it in footer
-- fix codeberg icon to exist in the navbar
-- fix font size issue
+- [Create paths page](https://codeberg.org/Landelijke-Docs/pages/issues/16)
+- [Create programmes (institute specific paths) page](https://codeberg.org/Landelijke-Docs/pages/issues/17)
+- [Finish the learning bank page](https://codeberg.org/Landelijke-Docs/pages/issues/18)
+- [Make 3rd party resource page, add categories/filters (maybe use quarto listing?)](https://codeberg.org/Landelijke-Docs/pages/issues/19)
+- [Form topic list](https://codeberg.org/Landelijke-Docs/pages/issues/20)
+- [Form subtopic list](https://codeberg.org/Landelijke-Docs/pages/issues/21)
+- [make a guide template](https://codeberg.org/Landelijke-Docs/pages/issues/23)
+- [make a programme template](https://codeberg.org/Landelijke-Docs/pages/issues/24)
+- [update article/subtopic template](https://codeberg.org/Landelijke-Docs/pages/issues/25)
+- [Fix up the documentation style guide as an example](https://codeberg.org/Landelijke-Docs/pages/issues/26)
+- [set up email address](https://codeberg.org/Landelijke-Docs/pages/issues/27)
+- [Add in development section to learning bank](https://codeberg.org/Landelijke-Docs/pages/issues/29)
+- [Make metadata template for courses & materials](https://codeberg.org/Landelijke-Docs/pages/issues/30)
+- [Get CC license and link to it in footer](https://codeberg.org/Landelijke-Docs/pages/issues/31#issuecomment-10006755)
+- [fix codeberg icon to exist in the navbar](https://codeberg.org/Landelijke-Docs/pages/issues/32)
+- [Apply documentation guidelines to regular pages, e.g. landing pages, about, etc](https://codeberg.org/Landelijke-Docs/pages/issues/38)
+- [Create a homework section to allow uploads and contributions](https://codeberg.org/Landelijke-Docs/pages/issues/35)
