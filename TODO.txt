@@ -15,6 +15,7 @@ come.
 - add embedded notebooks
 - add embedded r coding
 - integrate reading level check tools as part of actions (hemmingway/gunning fog index)
+- Make and integrate tool to convert powerpoint to html or pdf
 
 ******* Design work *******
 
