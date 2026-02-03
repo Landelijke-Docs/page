@@ -51,6 +51,10 @@ We currently provide content in five categories:
 
 *   Outside resources, a list of organised links for 3rd party resources that contributors have found to be useful and well written/spoken/filmed.
 
+# Contribution Guides
+
+In order to help with your contributions we some guidelines and templates. You can find the templates [here in the repo](https://codeberg.org/Landelijke-Docs/pages/src/branch/main/templates), the style guide can be [found here]() and [the readme](https://codeberg.org/Landelijke-Docs/pages/src/branch/main/README.md) has some information about the basics of Quarto (what this project uses to create the website). If you think that we could do with some more guides or templates then please raise it as an [issue in the repo](https://codeberg.org/Landelijke-Docs/pages/issues)! :)
+
 
 # TODO list
 
