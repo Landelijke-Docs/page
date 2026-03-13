@@ -1,0 +1,9 @@
+---
+title: "The Research Lifecycle"
+draft: true
+date: "04/20/2026"
+description: "A path created to help you with each aspect of the research process."
+categories: [research, general]
+image: "/images/lifecycle.png"
+---
+

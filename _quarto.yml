@@ -32,7 +32,7 @@ website:
       - text: Paths
         menu: 
         - text: Paths
-          href: paths/paths.qmd
+          href: paths.qmd
         - text: The Research Lifecycle
           href: paths/research_lifecycle.qmd
       - text: Learning Bank

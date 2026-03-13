@@ -1,0 +1,32 @@
+---
+title: Paths
+listing:
+    id: paths
+    contents: paths
+    feed: true
+    sort: "date desc"
+    type: table
+    fields: [title, date]
+    date-format: long
+    sort-ui: true
+    filter-ui: true
+    max-items: 4
+format: html
+css: styles.css
+---
+
+
+<div class="centered-image">
+![](paths/images/paths_landing_img.jpg){height=250}
+<figcaption>Credit to https://get.pxhere.com for the image.</figcaption>
+</div>
+
+
+Welcome to the Paths page here you can find collections of guides and articles that will help you to reach a certain role, title, of challenge. The most common path to start on is the research life cycle. In this Path each of the stages of working on a research project has different set of skills required to complete it and you can find guides on how to attain those skills in the Path. 
+
+A Path can be thought of as a course often with quite a specific aim. Paths are made by Landelijke Docs whereas Programmes are collections of guides, walkthroughs, and articles to help you prepare for a role, title, or challenge as collated by a specific institute. It is recommended that you follow a path in the order it is in, but feel free to skip parts you already know.
+
+Below you can find find a selection of existing paths and a filter system to browse them based on specific wishes. 
+
+::: {#events}
+:::
