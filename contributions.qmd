@@ -95,7 +95,6 @@ In order to help with your contributions we some guidelines and templates. You c
 
 <^><^><^> Structure <^><^><^>
 
-- [Create paths page](https://codeberg.org/Landelijke-Docs/pages/issues/16)
 - [Create programmes (institute specific paths) page](https://codeberg.org/Landelijke-Docs/pages/issues/17)
 - [Finish the learning bank page](https://codeberg.org/Landelijke-Docs/pages/issues/18)
 - [Make 3rd party resource page, add categories/filters (maybe use quarto listing?)](https://codeberg.org/Landelijke-Docs/pages/issues/19)
@@ -104,7 +103,6 @@ In order to help with your contributions we some guidelines and templates. You c
 - [make a guide template](https://codeberg.org/Landelijke-Docs/pages/issues/23)
 - [make a programme template](https://codeberg.org/Landelijke-Docs/pages/issues/24)
 - [update article/subtopic template](https://codeberg.org/Landelijke-Docs/pages/issues/25)
-- [Fix up the documentation style guide as an example](https://codeberg.org/Landelijke-Docs/pages/issues/26)
 - [set up email address](https://codeberg.org/Landelijke-Docs/pages/issues/27)
 - [Add in development section to learning bank](https://codeberg.org/Landelijke-Docs/pages/issues/29)
 - [Make metadata template for courses & materials](https://codeberg.org/Landelijke-Docs/pages/issues/30)

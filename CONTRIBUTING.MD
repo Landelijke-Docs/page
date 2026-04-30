@@ -8,9 +8,9 @@ Create a new Codeberg Issue
 Head over to our issue page on Codeberg to let us know about bugs, feature requests for the website, or anything that you would love to see developed for your research project (e.g., a code snippet). You can also attach files.
 Contribute directly via Pull Requests
 
-Already familiar with Codeberg and Pull Requests? Than fork our repository, work on your changes in a fresh branch, and submit a pull request.
+Already familiar with Codeberg and Pull Requests? [Then fork our repository](https://codeberg.org/Landelijke-Docs/pages/fork), work on your changes in a fresh branch, and submit a pull request.
 
-Need a step-by-step tutorial on how to do that? Read more about pull requests here.
+Need a step-by-step tutorial on how to do that? [Read more about pull requests here](https://docs.codeberg.org/collaborating/pull-requests-and-git-flow/).
 
 # What is a contribution?
 
@@ -22,6 +22,8 @@ We basically welcome any kind of feedback and contribution, including but not li
     - elaborate changes (modifying, adding or removing an entire paragraph or chapter)
     - asking for new content to be added
     - submitting an article without worrying about formatting (even a Word file!)
+    - uploading your own guides, articles, courses, and walk throughs
+    - linking 3rd party learning resources you have found useful
     - reporting a bug
     - requesting a new feature on the website
     - general tips or questions on the project
