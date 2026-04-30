@@ -1,0 +1,88 @@
+# Please fill out this metadata file to allow for increased findability and better filtering
+title = ""
+subtitle = ""
+
+
+[Basics]
+# Out of 10 how difficult of a topic is it?
+Difficulty = 0
+# Is this a vital part of programming or more domain dependent?
+Fundamental = true
+# Out of 10 how easy is the material to follow and understand on your own?
+Ease_of_learning =  0 
+date_of_creation = 01-01-1970
+date_of_review = 02-01-1970
+date_of_presentation = 31-12-2100
+# Are there pdfs, slides, videos, audio, code files, pure html?
+file_types = []
+# Is this a pilot or has it been used more than once and refined?
+pilot = true
+work_in_progress = true
+accreditation = true
+number_of_modules = 0
+# ?? perhaps new option for self, taught or hybrid
+self_led = true
+
+
+[Requirements]
+# In hours how long does the course/guide/walk through take to follow?
+time_to_follow = 0
+# What software will a student need for this?
+software = []
+# Which packages or libraries will be needed?
+libraries = []
+# Is there any additional 3rd party dependencies to follow this course?
+dependencies = []
+# Will the user need admin rights to install anything?
+admin_rights_needed = true
+# Are there any paid/closed course tools or programs used here?
+proprietary = true
+# Will the student need to make an account for anything?
+account_needed = true
+# What are the costs for any paid services, tools, books, objects, data, or software?
+cost = 0
+# Please use the 3 letter ISO 4217 code: https://en.wikipedia.org/wiki/ISO_4217
+# e.g. EUR for euros, ZMW for Zambian Kwacha, VND for Vietnamese Dong
+currency = ""
+# Will the user need a GPU for this course?
+GPU_needed = true
+# Are there any take home assignments?
+assignments = true
+
+
+
+[Credit]
+# Which institute(s) made this?
+institutes = []
+website = ""
+creators = []
+DOI = ""
+# What license does this project have? 
+# Note that without a license others cannot re-use the work without explicit permission
+license_type = ""
+presentors = []
+
+
+[Accessibility]
+# What is the total size of the course in MB (assume 1GB to be 1000MB for ease)
+size_in_mb = 0
+# Could someone follow this on a mobile, tablet, or chromebook?
+mobile_friendly = true
+# Is it in a format that someone could use a screen reader to read the text aloud?
+sight_impaired_friendly = true
+# Is the course open source?
+open_source = true
+# Does the course/guide make use of a style guide like the Landelijke Docs one?
+# Does it have fonts, spacings, formats, and colours that are friendly for those with ADHD and or Dyslexia?
+readability_styling = true
+
+
+[Languages]
+computer = []
+human = []
+
+
+[Topics]
+topics = []
+subtopics = []
+categories = []

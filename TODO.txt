@@ -45,7 +45,6 @@ come.
 - set up email address
 - Refine CoC, contributing, and accessbility and credit as desired by license
 - Add in development section to learning bank
-- Make metadata template for courses & materials
 - Add difficulty, fundamental, ease of learning to metadata
 - Get CC license and link to it in footer
 - fix codeberg icon to exist in the navbar

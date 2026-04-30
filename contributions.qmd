@@ -105,7 +105,6 @@ In order to help with your contributions we some guidelines and templates. You c
 - [update article/subtopic template](https://codeberg.org/Landelijke-Docs/pages/issues/25)
 - [set up email address](https://codeberg.org/Landelijke-Docs/pages/issues/27)
 - [Add in development section to learning bank](https://codeberg.org/Landelijke-Docs/pages/issues/29)
-- [Make metadata template for courses & materials](https://codeberg.org/Landelijke-Docs/pages/issues/30)
 - [Get CC license and link to it in footer](https://codeberg.org/Landelijke-Docs/pages/issues/31#issuecomment-10006755)
 - [fix codeberg icon to exist in the navbar](https://codeberg.org/Landelijke-Docs/pages/issues/32)
 - [Apply documentation guidelines to regular pages, e.g. landing pages, about, etc](https://codeberg.org/Landelijke-Docs/pages/issues/38)
