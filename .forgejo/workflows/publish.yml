@@ -1,28 +1,19 @@
 on:
-  workflow_dispatch:
   push:
-    branches: main
+    branches:
+      - pages
 
 name: Quarto Publish
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-latest
+    runs-on: codeberg-small
     permissions:
       contents: write
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
 
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-
-      - name: Render
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: codeberg-pages
-        env:
-          token: ${{ forge.token }}
       - name: Publish
         uses: https://codeberg.org/git-pages/action@v2
         with:
