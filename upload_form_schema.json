@@ -1,0 +1,298 @@
+{
+    "type": "object",
+    "properties": {
+        "Topics": {
+            "type": "object",
+            "properties": {
+                "title": {
+                    "type": "string",
+                    "title": "Title"
+                },
+                "subtitle": {
+                    "type": "string",
+                    "title": "Subtitle"
+                },
+                "topics": {
+                    "type": "array",
+                    "title": "Topics",
+                    "items": {
+                        "type": "string",
+                        "enum": [],
+                        "enumLabels": []
+                    },
+                    "description": "Choose all the relevant topics"
+                },
+                "subtopics": {
+                    "type": "array",
+                    "title": "Subtopics",
+                    "items": {
+                        "type": "string",
+                        "enum": [],
+                        "enumLabels": []
+                    },
+                    "description": "Choose all the relevant subtopics"
+                },
+                "categories": {
+                    "type": "array",
+                    "title": "Categories",
+                    "items": {
+                        "type": "string",
+                        "enum": [],
+                        "enumLabels": []
+                    },
+                    "description": "Choose all the relevant categories"
+                }
+            },
+        "title": "Name and Topics",
+        "required": ["title", "subtitle", "topics", "subtopic", "category"]
+        },
+        "Languages": {
+            "type": "object",
+            "properties": {
+                "computer": {
+                    "type": "enum",
+                    "title": "Computer language",
+                    "enum": ["Python", "R", "Shell", "Javascript", "C++", "Julia", "Ruby", "GO", "Rust", "Fortran"],
+                    "description": "What computer language is taught?"
+                },
+                "human": {
+                    "type": "enum",
+                    "title": "Human language",
+                    "enum": ["Dutch", "English", "Frisian", "Arabic", "Papiamento", "Turkish"],
+                    "description": "What human language is this in?"
+                }
+            },
+            "title": "Languages",
+            "required": ["computer", "human"]
+        },
+        "Credit": {
+            "type": "object",
+            "properties": {
+                "license": {
+                    "type": "enum",
+                    "title": "What license does this have?",
+                    "enum": ["MIT", "Creative Commons", "Apache 2.0", "GNU GPLv3", "Unlicense", "None", "Other permissive", "Other closed"],
+                    "description": "Note: without a license others cannot re-use the work without explicit permission"
+                },
+                "creators": {
+                    "type": "string",
+                    "title": "creators",
+                    "description": "Please separate the names by ';' so they acn be correctly processed."
+                },
+                "DOI": {
+                    "type": "string",
+                    "title": "DOI",
+                    "description": "If this contribution has a DOI make sure to include it here!"
+                },
+                "presenters": {
+                    "type": "string",
+                    "title": "Presenters",
+                    "description": "Does this contribution come from a course? Is the file a video or audio medium? Then there are presenters! Please separate their names using ';'."
+                },
+                "institutes": {
+                    "type": "string",
+                    "title": "Institute(s)",
+                    "description": "Which research institutes were involved in the creation of this content? Please separate them using ';'."
+                },
+                "website": {
+                    "type": "url",
+                    "title": "website",
+                    "description": "Is there a website for the content? E.g. The link to a web-book, a website of the creator(s), or a page with more information."
+                }
+            },
+            "title": "",
+            "required": ["license"]
+        },
+        "Basics": {
+            "type": "object",
+            "properties": {
+                "difficulty": {
+                    "type": "enum",
+                    "title": "Difficulty",
+                    "enum": [1,2,3,4,5,6,7,8,9,10],
+                    "default": 0,
+                    "description": "Out of 10 how difficult of a topic is it? (10 being very challenging and 1 being easy peasy)"
+                },
+                "fundamental": {
+                    "type": "boolean",
+                    "title": "Fundamental",
+                    "enum": ["True", "False"],
+                    "description": "Is this a vital part of programming or more domain dependent?"
+                },
+                "learning_ease": {
+                    "type": "enum",
+                    "title": "Ease of learning",
+                    "enum": [1,2,3,4,5,6,7,8,9,10],
+                    "default": 0,
+                    "description": "Out of 10, how easy is the material to follow and understand on your own? (10 being easy peasy and 1 being very challenging)"
+                },
+                "date_of_creation": {
+                    "type": "datetime",
+                    "title": "Date of creation",
+                    "description": "An approximate date will work if you do not know the exact date the content was made."
+                },
+                "date_of_review": {
+                    "type": "datetime",
+                    "title": "Date of review/update",
+                    "description": "Has this content been reviewed and updated at any point?"
+                },
+                "date_of_presentation": {
+                    "type": "datetime",
+                    "title": "Date of presentation",
+                    "description": "Was or will this content be presented? When was that/will that be?"
+                },
+                "file_types": {
+                    "type": "array",
+                    "title": "File types",
+                    "items": {
+                        "type": "string",
+                        "enum": ["pdf", "doc", "ppt", "html", "script", "video", "audio", "txt"],
+                        "enumLabels": ["Pdf", "Document", "Html", "Script", "Video", "Audio", "Text"]
+                    },
+                    "description": "What types of files are in your contribution? Some users might prefer audio or perhaps want to avoid larger files like videos."
+                },
+                "pilot": {
+                    "type": "boolean",
+                    "title": "Pilot",
+                    "enum": ["True", "False"],
+                    "description": "Is this content part of a pilot or has it been tried, tested, and refined?"
+                },
+                "work_in_progress": {
+                    "type": "boolean",
+                    "title": "Work in progress",
+                    "enum": ["True", "False"],
+                    "description": "Is this still being build upon or is this the final version? If it is a work in progress consider including the website so that people can keep up to date."
+                },
+                "accreditation": {
+                    "type": "boolean",
+                    "title": "Accreditation",
+                    "enum": ["True", "False"],
+                    "description": "Is there any accreditation available for following or completing this?"
+                },
+                "number_of_modules": {
+                    "type": "number",
+                    "title": "Number of modules",
+                    "default": "0",
+                    "description": "How many modules are in this content? If it is a single item you can type '1'."
+                },
+                "material_type": {
+                    "type": "enum",
+                    "title": "Material type",
+                    "enum": ["self", "taught", "hybrid"],
+                    "enumLabels": ["Self taught", "Teacher led", "Mix of the two"],
+                    "description": "Is the material intended to be taught, self taught, or a combination?"
+                }
+            },
+            "title": "Material details",
+            "required": ["difficulty", "fundamental", "date_of_creation", "material_type"]
+        },
+        "Requirements": {
+            "type": "object",
+            "properties": {
+                "time_to_follow": {
+                    "type": "number",
+                    "title": "Time to follow",
+                    "description": "To the nearest hour, approximately how long does it take to follow the material?"
+                },
+                "software": {
+                    "type": "string",
+                    "title": "Software Requirements",
+                    "description": "What software would someone need to follow the material? Separate names with ';'."
+                },
+                "libraries": {
+                    "type": "string",
+                    "title": "Package/Library Requirements",
+                    "description": "What packages/libraries would someone need to install in order to follow the material? Separate names with ';'."
+                },
+                "dependencies": {
+                    "type": "string",
+                    "title": "3rd Party Requirements",
+                    "description": "Are there any 3rd party dependencies needed to follow the material? Separate names with ';'."
+                },
+                "admin_rights": {
+                    "type": "boolean",
+                    "title": "Are Admin rights needed?",
+                    "enum": ["True", "False"],
+                    "enumLabels": ["Yes", "No"]
+                },
+                "proprietary": {
+                    "type": "boolean",
+                    "title": "Proprietary tools",
+                    "enum": ["True", "False"],
+                    "enumLabels": ["Yes", "No"],
+                    "description": "Are there any paid or closed tools or programs needed to follow the material?"
+                },
+                "account_needed": {
+                    "type": "enum",
+                    "title": "Account requirements",
+                    "enum": ["True", "False"],
+                    "enumLabels": ["Yes", "No"],
+                    "description": "Will the student need to make an account for anything to follow the material?"
+                },
+                "currency": {
+                    "type": "string",
+                    "title": "Currency of cost",
+                    "description": "Please use the 3 letter ISO 4217 code (check here for yours, https://en.wikipedia.org/wiki/ISO_4217). E.g. EUR for euros, ZMW for Zambian Kwacha, or VND for Vietnamese Dong"
+                },
+                "cost": {
+                    "type": "number",
+                    "title": "Cost to follow",
+                    "default": -1,
+                    "description": "What are the total costs for any paid services, tools, books, objects, data, or software needed to follow the material?"
+                },
+                "GPU_needed": {
+                    "type": "enum",
+                    "title": "Is a GPU needed?",
+                    "enum": ["True", "False"],
+                    "enumLabels": ["Yes", "No"]
+                },
+                "assignments": {
+                    "type": "enum",
+                    "title": "Are there take home assignments?",
+                    "enum": ["True", "False"],
+                    "enumLabels": ["Yes", "No"]
+                }
+            },
+            "title": "Material Requirements",
+            "required": ["dependencies", "admin_rights", "proprietary", "account_needed", "currency", "cost"]
+        },
+        "Accessibility": {
+            "type": "object",
+            "properties": {
+                "size_in_mb": {
+                    "type": "number",
+                    "title": "Size of the materials in MB",
+                    "description": "Assume 1GB to be 1000MB for ease."
+                },
+                "mobile_friendly": {
+                    "type": "enum",
+                    "title": "Mobile friendly",
+                    "enum": ["True", "False"],
+                    "enumLabels": ["Yes", "No"],
+                    "description": "Could someone follow this on a mobile, tablet, of chromebook?"
+                },
+                "sight_impaired_friendly": {
+                    "type": "enum",
+                    "title": "Sight impaire friendliness",
+                    "enum": ["True", "False"],
+                    "enumLabels": ["Yes", "No"],
+                    "description": "Is the material in a format that someone could use a screen reader to read the text aloud?"
+                },
+                "open_source": {
+                    "type": "enum",
+                    "title": "Is the material open source?",
+                    "enum": ["True", "False"],
+                    "enumLabels": ["Yes", "No"]
+                },
+                "readability_styling": {
+                    "type": "enum",
+                    "title": "Readability",
+                    "enum": ["True", "False"],
+                    "enumLabels": ["Yes", "No"],
+                    "description": "Does the material make use of a style guide to make it more readable (e.g. the Landelijke Docs one) I.E. does it have fonts, spacings, formatting, and colours that are friendly for those with ADHD, Dyslexis, Colour Blindness, or any other reading difficulty?"
+                }
+            },
+            "title": "Accessibility"
+        }
+    }
+}
