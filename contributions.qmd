@@ -53,7 +53,14 @@ We currently provide content in five categories:
 
 # Contribution Guides
 
-In order to help with your contributions we some guidelines and templates. You can find the templates [here in the repo](https://codeberg.org/Landelijke-Docs/pages/src/branch/main/templates), the style guide can be [found here]() and [the readme](https://codeberg.org/Landelijke-Docs/pages/src/branch/main/README.md) has some information about the basics of Quarto (what this project uses to create the website). If you think that we could do with some more guides or templates then please raise it as an [issue in the repo](https://codeberg.org/Landelijke-Docs/pages/issues)! :)
+In order to help with your contributions we some guidelines and templates. You can find the templates [here in the repo](https://codeberg.org/Landelijke-Docs/pages/src/branch/main/templates), the style guide can be [found here](https://codeberg.org/Landelijke-Docs/pages/src/branch/main/Style%20guideline.docx) and [the readme](https://codeberg.org/Landelijke-Docs/pages/src/branch/main/README.md) has some information about the basics of Quarto (what this project uses to create the website). If you think that we could do with some more guides or templates then please raise it as an [issue in the repo](https://codeberg.org/Landelijke-Docs/pages/issues)! :)
+
+
+# Contributing without an account
+
+Ideally the contribution follows the standard method of forking our repo in Codeberg, but if those words don't mean anything to you then you can either check out [this contribution guide](https://codeberg.org/MGMCoET/First_Contributions) or you can use our upload form. The questions asked are to fill out the [metadata file](https://codeberg.org/Landelijke-Docs/pages/src/branch/main/templates/metadata.toml) allowing people to better search and filter materials on the website. Not all questions are mandatory as most will have a default value. 
+
+[Contribute via the Upload Form](upload_form.qmd)
 
 
 # TODO list

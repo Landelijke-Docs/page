@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>contributing – Landelijke Docs</title>
+<title>Upload Form – Landelijke Docs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -167,57 +167,113 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#how-to-contribute-to-landelijke-docs" id="toc-how-to-contribute-to-landelijke-docs" class="nav-link active" data-scroll-target="#how-to-contribute-to-landelijke-docs">How to contribute to Landelijke Docs</a></li>
-  <li><a href="#what-is-a-contribution" id="toc-what-is-a-contribution" class="nav-link" data-scroll-target="#what-is-a-contribution">What is a contribution?</a></li>
-  <li><a href="#how-is-the-content-organized" id="toc-how-is-the-content-organized" class="nav-link" data-scroll-target="#how-is-the-content-organized">How is the content organized?</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Upload Form</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<section id="how-to-contribute-to-landelijke-docs" class="level1">
-<h1>How to contribute to Landelijke Docs</h1>
-<p>We’re glad for your interest in contributing to our project. Landelijke Docs is open-source, and as such, anyone can contribute! The process is really simple.</p>
-<p>You are welcome to contribute to our platform in two ways. Create a new Codeberg Issue</p>
-<p>Head over to our issue page on Codeberg to let us know about bugs, feature requests for the website, or anything that you would love to see developed for your research project (e.g., a code snippet). You can also attach files. Contribute directly via Pull Requests</p>
-<p>Already familiar with Codeberg and Pull Requests? <a href="https://codeberg.org/Landelijke-Docs/pages/fork">Then fork our repository</a>, work on your changes in a fresh branch, and submit a pull request.</p>
-<p>Need a step-by-step tutorial on how to do that? <a href="https://docs.codeberg.org/collaborating/pull-requests-and-git-flow/">Read more about pull requests here</a>.</p>
-</section>
-<section id="what-is-a-contribution" class="level1">
-<h1>What is a contribution?</h1>
-<p>Anything from simple changes, grammar checks and reporting a bug to more elaborate changes and writing entirely new content!</p>
-<p>We basically welcome any kind of feedback and contribution, including but not limited to:</p>
-<pre><code>- general fixes (typos, small sentences)
-- elaborate changes (modifying, adding or removing an entire paragraph or chapter)
-- asking for new content to be added
-- submitting an article without worrying about formatting (even a Word file!)
-- uploading your own guides, articles, courses, and walk throughs
-- linking 3rd party learning resources you have found useful
-- reporting a bug
-- requesting a new feature on the website
-- general tips or questions on the project</code></pre>
-</section>
-<section id="how-is-the-content-organized" class="level1">
-<h1>How is the content organized?</h1>
-<p>We provide content in three forms:</p>
-<pre><code>Building Blocks are concepts in small doses, the DNA of our platform. They are small code snippets that users can independently "mix" to create something unique, like LEGO bricks. These allow us to explain the theory while also providing some practical examples and code snippets for a variety of programming languages or operating systems. Information is explained in a way that it is easy to clone or implement in an existing project. While everybody can follow our Building Blocks, they are generally more appealing to advanced users – or those who already know what to look for.
-
-Tutorials explain a broader argument compared to Building Blocks, and follow a sequential order. They teach our users how to combine individual building blocks into a "final product". These are particularly useful for novices or anyone new to a certain topic because of their comprehensive nature and step-by-step guidance. We support and encourage the use of videos, exercises, and quizzes in a tutorial.
-
-Examples are real-life cases, publications, templates, or research projects that put into practice the concepts explained on this website.</code></pre>
-<p>Kindly stolen form Tilburg Uni</p>
+    
+  
+    
+  </div>
+  
 
 
-</section>
+</header>
+
+
+<style>
+    body {
+        font-family: Verdana, sans-serif;
+        background-color: #f4f4f4;
+        padding: 20px;
+    }
+
+    form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        max-width: 600px;
+        margin: auto;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="file"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+        margin-right: 10px;
+    }
+
+    input[type="submit"] {
+        background-color: #007BFF;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+</style>
+<form id="uploadForm">
+<p><label for="name">Name:</label><br> <input type="text" id="name" name="name" placeholder="Enter your name"><br></p>
+<p><label for="email">Email:</label><br> <input type="email" id="email" name="email" placeholder="Enter your email"><br></p>
+<p><label for="gender">Gender:</label><br> <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label><br> <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label><br> <input type="radio" id="other" name="gender" value="other"> <label for="other">Other</label><br></p>
+<p><label for="interests">Interests:</label><br> <input type="checkbox" id="interest1" name="interests" value="reading"> <label for="interest1">Reading</label><br> <input type="checkbox" id="interest2" name="interests" value="coding"> <label for="interest2">Coding</label><br> <input type="checkbox" id="interest3" name="interests" value="music"> <label for="interest3">Music</label><br></p>
+<p><label for="file">Upload File:</label><br> <input type="file" id="file" name="file"><br></p>
+<button type="button" onclick="submitForm()">
+Submit
+</button>
+</form>
+<script>
+    function submitForm() {
+        const formData = new FormData(document.getElementById("uploadForm"));
+        fetch("https://your-ovh-api-url.com/upload", {
+        method: "POST",
+        body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+        console.log("Success:", data);
+        })
+        .catch(error => {
+        console.error("Error:", error);
+        });
+    }
+</script>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
