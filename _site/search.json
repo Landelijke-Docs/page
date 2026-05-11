@@ -7,11 +7,67 @@
     "text": "If you have come to this page you’re already one step towards being convinced, let’s help get you over that finish line.\nDo you like hoovering?\nHave you outsourced this chore?\nDo you remember to water your plants?\nHave you outsourced this job?\nDo you remember to feed your pets at the same time each day?\nHave you outsourced this task?\nThese are all relatively simple tasks that you have to do with enough frequency that you might have considered that it could be automated in some way.\nDo you like repeating your analysis?\nHave outsourced this role?\nIn essence programming is outsourcing these boring frequent tasks that we need to do and it ensures that it will be done exactly the same way every time. This could be anything, from a task like setting up the folder for a new project, to filling out forms, to creating graphs from your data, to converting folders of audio files to text.\nIf you can break something down in to small concrete tasks you can get a computer to do it for you, whether this is building a model for your data, simulating your lab environment, or repeating the 101 plots from your different filters on your dataset.\nTo get started check out the good practice page or choose the path that works for you!"
   },
   {
-    "objectID": "learn.html",
-    "href": "learn.html",
-    "title": "The Learning Materials",
+    "objectID": "templates/topic/topic.html",
+    "href": "templates/topic/topic.html",
+    "title": "Topic name",
     "section": "",
-    "text": "::TODO::\nleft side menu for levels, paths, programmes, etc\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
+    "text": "Prerequisite\nImportance\nSkill Level\nNotes\n\n\n\n\n{ref}Chapter &lt;chapter-label&gt;\nHelpful/Necessary\nBeginner/Intermediate/Advanced\nAny useful notes the reader should know\n\n\n\n(from the turing way)"
+  },
+  {
+    "objectID": "templates/topic/topic.html#prerequisites-if-any",
+    "href": "templates/topic/topic.html#prerequisites-if-any",
+    "title": "Topic name",
+    "section": "",
+    "text": "Prerequisite\nImportance\nSkill Level\nNotes\n\n\n\n\n{ref}Chapter &lt;chapter-label&gt;\nHelpful/Necessary\nBeginner/Intermediate/Advanced\nAny useful notes the reader should know\n\n\n\n(from the turing way)"
+  },
+  {
+    "objectID": "paths.html",
+    "href": "paths.html",
+    "title": "Paths",
+    "section": "",
+    "text": "Credit to https://get.pxhere.com for the image.\n\n\nWelcome to the Paths page here you can find collections of guides and articles that will help you to reach a certain role, title, of challenge. The most common path to start on is the research life cycle. In this Path each of the stages of working on a research project has different set of skills required to complete it and you can find guides on how to attain those skills in the Path.\nA Path can be thought of as a course often with quite a specific aim. Paths are made by Landelijke Docs whereas Programmes are collections of guides, walkthroughs, and articles to help you prepare for a role, title, or challenge as collated by a specific institute. It is recommended that you follow a path in the order it is in, but feel free to skip parts you already know.\nBelow you can find find a selection of existing paths and a filter system to browse them based on specific wishes.\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDate\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "learning_bank/learning_bank.html",
+    "href": "learning_bank/learning_bank.html",
+    "title": "Landelijke Docs",
+    "section": "",
+    "text": "The learning bank\nDo you want to improve your programming skills and want to use materials created by our partners? Then look no further!\nThe learning bank is a free extensive collection of all the materials our partners have shared with the project, use them to teach classes, to teach yourself, to share with others or to edit for your own use. Each has a license reference, so do make sure to credit the creators as specified in the license.\nJoin us! If you want to become a partner or an individual contributor then check out the contributing page and join use on Codeberg!"
+  },
+  {
+    "objectID": "learning_bank/learning_bank.html#materials",
+    "href": "learning_bank/learning_bank.html#materials",
+    "title": "Landelijke Docs",
+    "section": "Materials",
+    "text": "Materials\nLook through the learning materials here and use the filters to find the specific course, guide, article, or walkthrough you’re looking for!\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDate\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Partners",
+    "section": "",
+    "text": "Welcome to Landelijke Docs! This is an informal community effort to collect and collate software good practice, guides, and guidelines. The initiative is born out of requests of the support staff to provide guides and instead of every institute having its own version covering every topic in a few years we work together to have one version now.\nThis is a living project that is developing and growing all the time. We are starting with a learning bank with courses, presentations, guides, and documentation created by our partners and curated lists of 3rd party resources. The next step is creating clear and readable articles about the core aspects of reseach software and the good practices to follow. Once the basics are covered we will be working with researchers to write guides and articles on the best practice for all topics and fields.\nWe are always looking for contributors, if you want to know more check out the contributing page!\n\n\n\nPartners\nA list of the current project partners. Would you like to join? Then contact us!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "format_word_tool.html",
+    "href": "format_word_tool.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "This tool was made to allow people to automatically format .doc/.docx files to follow some of the style guidelines for readability.\nThis is will tool will change character, word, and line spacing to have: - Character spacing at 35% of font size - Word spacing at 350% of character spacing - Line spacing at 150% of word spacing"
+  },
+  {
+    "objectID": "format_word_tool.html#for-selected-text",
+    "href": "format_word_tool.html#for-selected-text",
+    "title": "Introduction",
+    "section": "For selected text",
+    "text": "For selected text\nSub Change_selected_spacing() Dim fontSize As Integer Dim charSpacingPercentage As Integer Dim wordSpacingPercentage As Integer Dim lineSpacingPercentage As Integer Dim spacing As Integer\n' Get the font size of the selected text\nfontSize = Selection.Font.Size\n\ncharSpacingPercentage = 35\nwordSpacingPercentage = 350\nlineSpacingPercentage = 150\n\n' Calculate inter-character spacing\nspacing = fontSize * (charSpacingPercentage / 100)\n\n' Apply inter-character spacing\nSelection.Font.spacing = spacing\n\n' Calculate inter-word spacing (based on inter-character spacing)\nspacing = spacing * (wordSpacingPercentage / 100)\n\n' Calculate line spacing based on inter-word spacing\nspacing = spacing * (lineSpacingPercentage / 100)\n\n' Apply line spacing\nSelection.ParagraphFormat.LineSpacing = spacing\nEnd Sub"
+  },
+  {
+    "objectID": "format_word_tool.html#for-full-document",
+    "href": "format_word_tool.html#for-full-document",
+    "title": "Introduction",
+    "section": "For full document",
+    "text": "For full document\nSub Change_doc_spacing() Dim doc As Document Dim rng As Range Dim para As Paragraph Dim fontSize As Double Dim charSpacingPercentage As Single Dim wordSpacingPercentage As Single Dim lineSpacingPercentage As Single Dim spacing As Double\nApplication.ScreenUpdating = False\nSet doc = ActiveDocument\n\nchar_spacing_percentage = 35\nword_spacing_percentage = 350\nline_spacing_percentage = 150\n\n\nFor Each para In doc.Paragraphs\n    For Each wd In para.Range.Words\n        ' Get fontsize of paragraph\n        font_size = wd.Font.Size\n        \n        ' Skip if font size is zero (to avoid errors)\n        If fontSize &lt;&gt; 0 Then\n            ' Calculate inter-character spacing\n            spacing = fontSize * (charSpacingPercentage / 100)\n            \n            ' Apply inter-character spacing\n            Selection.Font.spacing = spacing\n        Else\n            MsgBox \"Word with font size 0 found. Skipping.\"\n            \n        End If\n        \n    Next wd\n    \n    ' Calculate inter-word spacing (based on inter-character spacing)\n    spacing = spacing * (wordSpacingPercentage / 100)\n            \n    ' Calculate line spacing based on inter-word spacing\n    spacing = spacing * (lineSpacingPercentage / 100)\n            \n    ' Apply line spacing\n    Selection.ParagraphFormat.LineSpacing = spacing\n    \nNext para\nEnd Sub"
   },
   {
     "objectID": "CONTRIBUTING.html",
@@ -168,46 +224,11 @@
     "text": "Hey, it’s great that you want to contribute to the project!\nLandelijke Docs is open-source, and as such, anyone can contribute! For those used to using git repositories the process will be familiar.\nYou are welcome to contribute to our platform in two ways.\n\nCreate a new Codeberg Issue\n\n      Head over to our issue page on Codeberg to let us know about bugs, feature requests for the website, or anything that you would love to see developed for your\n      research project (e.g., a code snippet). You can also attach files.\n\nContribute directly via Pull Requests\n\nAlready familiar with Codeberg and Pull Requests? Than fork our repository, work on your changes in a fresh branch, and submit a pull request.\nNeed a step-by-step tutorial on how to do that? Read more about pull requests here.\n\nWhat is a contribution?\nAnything from simple changes, grammar checks and reporting a bug to more elaborate changes and writing entirely new content!\nWe basically welcome any kind of feedback and contribution, including but not limited to:\n\ngeneral fixes (typos, small sentences)\nelaborate changes (modifying, adding or removing an entire paragraph or chapter)\nasking for new content to be added\nsubmitting an article without worrying about formatting (even a Word file!)\nreporting a bug\nrequesting a new feature on the website\ngeneral tips or questions on the project\nbeautification work\ngraphics to use in or out of articles\n\n\n\nHow is the content organized?\nWe currently provide content in five categories:\n\nArticles are concepts in small doses, the DNA of our platform. They are short guides on a subtopic teaching fundamental concepts in software development. Information is explained in a way that it is easy to clone or implement in an existing project. While everybody can follow our articles, they are generally more appealing to advanced users – or those who already know what to look for.\nPaths are collections of articles relevant to a role or type of project that will be interspersed with examples for learners to follow.\nProgrammes are institution crafted paths. Some institutions might prefer their own materials or think that more or fewer article should be in a path.\nThe Learning Bank contains all learning resources created by our partners and contributors.\nOutside resources, a list of organised links for 3rd party resources that contributors have found to be useful and well written/spoken/filmed.\n\n\n\nContribution Guides\nIn order to help with your contributions we some guidelines and templates. You can find the templates here in the repo, the style guide can be found here and the readme has some information about the basics of Quarto (what this project uses to create the website). If you think that we could do with some more guides or templates then please raise it as an issue in the repo! :)\n\n\nContributing without an account\nIdeally the contribution follows the standard method of forking our repo in Codeberg, but if those words don’t mean anything to you then you can either check out this contribution guide or you can use our upload form. The questions asked are to fill out the metadata file allowing people to better search and filter materials on the website. Not all questions are mandatory as most will have a default value.\nContribute via the Upload Form\n\n\nTODO list\n---- Dev work ----\n\nAdd pdf viewing for learning bank\nCreate upload page to avoid needing a codeberg account and knowledge on forking\nconnect to turing way\nconnect to taxila\nconnect to escience center\nadd embedded notebooks\nCreate options for including (R) Shiny in pages\nadd embedded r coding\nintegrate reading level check tools as part of actions (hemmingway/gunning fog index)\nCreate a tool to convert powerpoint to pdf or html ready for integration\n\n******* Design work *******\n\nCreate set of graphics to use in articles 1, 2\nCreate graphics to break up reading lots of articles\nBeautify site\nReview the UI of the site\nWrite up YAML to allow Codeberg actions to automate commit to website process and hosting in Codeberg pages\nCreate tool to allow contributors to make quizzes\n\n&lt;&gt;&lt;&gt;&lt;&gt;&lt; Writing &gt;&lt;&gt;&lt;&gt;&lt;&gt;\n\narticles from basics topics\nniche topics with best practice\nhomeworks\nQuizzes\nupdate sales pitch to presentation others can re-use\nAdd a guide on how to contribute to a course\nRefine CoC and credit as desired by license\nRefine the contributing doc and credit as desired by license\nRefine the accessbility doc and credit as desired by license\n\n&lt;&gt;&lt;&gt;&lt;^&gt; Structure &lt;&gt;&lt;&gt;&lt;^&gt;\n\nCreate programmes (institute specific paths) page\nFinish the learning bank page\nMake 3rd party resource page, add categories/filters (maybe use quarto listing?)\nForm topic list\nForm subtopic list\nmake a guide template\nmake a programme template\nupdate article/subtopic template\nset up email address\nAdd in development section to learning bank\nGet CC license and link to it in footer\nfix codeberg icon to exist in the navbar\nApply documentation guidelines to regular pages, e.g. landing pages, about, etc\nCreate a homework section to allow uploads and contributions"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Partners",
+    "objectID": "learn.html",
+    "href": "learn.html",
+    "title": "The Learning Materials",
     "section": "",
-    "text": "Welcome to Landelijke Docs! This is an informal community effort to collect and collate software good practice, guides, and guidelines. The initiative is born out of requests of the support staff to provide guides and instead of every institute having its own version covering every topic in a few years we work together to have one version now.\nThis is a living project that is developing and growing all the time. We are starting with a learning bank with courses, presentations, guides, and documentation created by our partners and curated lists of 3rd party resources. The next step is creating clear and readable articles about the core aspects of reseach software and the good practices to follow. Once the basics are covered we will be working with researchers to write guides and articles on the best practice for all topics and fields.\nWe are always looking for contributors, if you want to know more check out the contributing page!\n\n\n\nPartners\nA list of the current project partners. Would you like to join? Then contact us!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "learning_bank/learning_bank.html",
-    "href": "learning_bank/learning_bank.html",
-    "title": "Landelijke Docs",
-    "section": "",
-    "text": "The learning bank\nDo you want to improve your programming skills and want to use materials created by our partners? Then look no further!\nThe learning bank is a free extensive collection of all the materials our partners have shared with the project, use them to teach classes, to teach yourself, to share with others or to edit for your own use. Each has a license reference, so do make sure to credit the creators as specified in the license.\nJoin us! If you want to become a partner or an individual contributor then check out the contributing page and join use on Codeberg!"
-  },
-  {
-    "objectID": "learning_bank/learning_bank.html#materials",
-    "href": "learning_bank/learning_bank.html#materials",
-    "title": "Landelijke Docs",
-    "section": "Materials",
-    "text": "Materials\nLook through the learning materials here and use the filters to find the specific course, guide, article, or walkthrough you’re looking for!\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDate\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "paths.html",
-    "href": "paths.html",
-    "title": "Paths",
-    "section": "",
-    "text": "Credit to https://get.pxhere.com for the image.\n\n\nWelcome to the Paths page here you can find collections of guides and articles that will help you to reach a certain role, title, of challenge. The most common path to start on is the research life cycle. In this Path each of the stages of working on a research project has different set of skills required to complete it and you can find guides on how to attain those skills in the Path.\nA Path can be thought of as a course often with quite a specific aim. Paths are made by Landelijke Docs whereas Programmes are collections of guides, walkthroughs, and articles to help you prepare for a role, title, or challenge as collated by a specific institute. It is recommended that you follow a path in the order it is in, but feel free to skip parts you already know.\nBelow you can find find a selection of existing paths and a filter system to browse them based on specific wishes.\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDate\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "templates/topic/topic.html",
-    "href": "templates/topic/topic.html",
-    "title": "Topic name",
-    "section": "",
-    "text": "Prerequisite\nImportance\nSkill Level\nNotes\n\n\n\n\n{ref}Chapter &lt;chapter-label&gt;\nHelpful/Necessary\nBeginner/Intermediate/Advanced\nAny useful notes the reader should know\n\n\n\n(from the turing way)"
-  },
-  {
-    "objectID": "templates/topic/topic.html#prerequisites-if-any",
-    "href": "templates/topic/topic.html#prerequisites-if-any",
-    "title": "Topic name",
-    "section": "",
-    "text": "Prerequisite\nImportance\nSkill Level\nNotes\n\n\n\n\n{ref}Chapter &lt;chapter-label&gt;\nHelpful/Necessary\nBeginner/Intermediate/Advanced\nAny useful notes the reader should know\n\n\n\n(from the turing way)"
+    "text": "::TODO::\nleft side menu for levels, paths, programmes, etc\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "upload_form.html",
@@ -215,26 +236,5 @@
     "title": "Upload Form",
     "section": "",
     "text": "Name: \nEmail: \nGender:  Male  Female  Other\nInterests:  Reading  Coding  Music\nUpload File: \n\nSubmit"
-  },
-  {
-    "objectID": "format_word_tool.html",
-    "href": "format_word_tool.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "This tool was made to allow people to automatically format .doc/.docx files to follow some of the style guidelines for readability.\nThis is will tool will change character, word, and line spacing to have: - Character spacing at 35% of font size - Word spacing at 350% of character spacing - Line spacing at 150% of word spacing"
-  },
-  {
-    "objectID": "format_word_tool.html#for-selected-text",
-    "href": "format_word_tool.html#for-selected-text",
-    "title": "Introduction",
-    "section": "For selected text",
-    "text": "For selected text\nSub Change_selected_spacing() Dim fontSize As Integer Dim charSpacingPercentage As Integer Dim wordSpacingPercentage As Integer Dim lineSpacingPercentage As Integer Dim spacing As Integer\n' Get the font size of the selected text\nfontSize = Selection.Font.Size\n\ncharSpacingPercentage = 35\nwordSpacingPercentage = 350\nlineSpacingPercentage = 150\n\n' Calculate inter-character spacing\nspacing = fontSize * (charSpacingPercentage / 100)\n\n' Apply inter-character spacing\nSelection.Font.spacing = spacing\n\n' Calculate inter-word spacing (based on inter-character spacing)\nspacing = spacing * (wordSpacingPercentage / 100)\n\n' Calculate line spacing based on inter-word spacing\nspacing = spacing * (lineSpacingPercentage / 100)\n\n' Apply line spacing\nSelection.ParagraphFormat.LineSpacing = spacing\nEnd Sub"
-  },
-  {
-    "objectID": "format_word_tool.html#for-full-document",
-    "href": "format_word_tool.html#for-full-document",
-    "title": "Introduction",
-    "section": "For full document",
-    "text": "For full document\nSub Change_doc_spacing() Dim doc As Document Dim rng As Range Dim para As Paragraph Dim fontSize As Double Dim charSpacingPercentage As Single Dim wordSpacingPercentage As Single Dim lineSpacingPercentage As Single Dim spacing As Double\nApplication.ScreenUpdating = False\nSet doc = ActiveDocument\n\nchar_spacing_percentage = 35\nword_spacing_percentage = 350\nline_spacing_percentage = 150\n\n\nFor Each para In doc.Paragraphs\n    For Each wd In para.Range.Words\n        ' Get fontsize of paragraph\n        font_size = wd.Font.Size\n        \n        ' Skip if font size is zero (to avoid errors)\n        If fontSize &lt;&gt; 0 Then\n            ' Calculate inter-character spacing\n            spacing = fontSize * (charSpacingPercentage / 100)\n            \n            ' Apply inter-character spacing\n            Selection.Font.spacing = spacing\n        Else\n            MsgBox \"Word with font size 0 found. Skipping.\"\n            \n        End If\n        \n    Next wd\n    \n    ' Calculate inter-word spacing (based on inter-character spacing)\n    spacing = spacing * (wordSpacingPercentage / 100)\n            \n    ' Calculate line spacing based on inter-word spacing\n    spacing = spacing * (lineSpacingPercentage / 100)\n            \n    ' Apply line spacing\n    Selection.ParagraphFormat.LineSpacing = spacing\n    \nNext para\nEnd Sub"
   }
 ]
