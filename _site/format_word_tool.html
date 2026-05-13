@@ -179,6 +179,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#for-selected-text" id="toc-for-selected-text" class="nav-link" data-scroll-target="#for-selected-text">For selected text</a></li>
   <li><a href="#for-full-document" id="toc-for-full-document" class="nav-link" data-scroll-target="#for-full-document">For full document</a></li>
   </ul></li>
+  <li><a href="#links" id="toc-links" class="nav-link" data-scroll-target="#links">links</a></li>
   </ul>
 </nav>
     </div>
@@ -196,7 +197,12 @@ ul.task-list li input[type="checkbox"] {
 <section id="how-to-use-it" class="level1">
 <h1>How to use it</h1>
 <p>In order to use it in your own word documents you need to take the following steps:</p>
-<pre><code>- </code></pre>
+<pre><code>-   Go to the "Developer" tab in your Word window
+-   If you don't have the Developer tab then first go to the "File" tab and select "options"
+-   Go to "Customize Ribbon" and make sure that the "Developer" check box is checked and press OK
+-   Click on "Macros", provide a name "Landelijke Docs styling tool" and press "create"
+-   Remove the placeholder text from the file that has opened and copy and paste one of the tools below into the window and save the file
+- Close the "Microsoft Visual Basic for Applications" window and you can access the macro from the Macros button and select "run" to use it</code></pre>
 </section>
 <section id="tools" class="level1">
 <h1>Tools</h1>
@@ -267,9 +273,13 @@ For Each para In doc.Paragraphs
     
 Next para</code></pre>
 <p>End Sub</p>
-
-
 </section>
+</section>
+<section id="links" class="level1">
+<h1>links</h1>
+<p>https://stackoverflow.com/questions/76221882/change-paragraph-font-size https://stackoverflow.com/questions/65153963/sub-to-find-text-in-a-word-document-by-specified-font-and-font-size https://stackoverflow.com/questions/79934580/what-methods-can-i-use-to-provide-an-upload-page-on-a-static-github-pages-webs https://learn.microsoft.com/en-us/office/vba/api/word.font.spacing https://learn.microsoft.com/en-us/office/vba/api/word.paragraphs.format https://learn.microsoft.com/en-us/office/vba/api/word.paragraph.range</p>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -345,7 +355,7 @@ Next para</code></pre>
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/landelijke-docs\.github\.io\/page\/");
+        var filterRegex = new RegExp("https:\/\/landelijke-docs\.codeberg\.page\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

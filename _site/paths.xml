@@ -6,10 +6,10 @@
       version="2.0">
 <channel>
 <title>Landelijke Docs</title>
-<link>https://landelijke-docs.github.io/page/paths.html</link>
-<atom:link href="https://landelijke-docs.github.io/page/paths.xml" rel="self" type="application/rss+xml"/>
+<link>https://landelijke-docs.codeberg.page/paths.html</link>
+<atom:link href="https://landelijke-docs.codeberg.page/paths.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Fri, 13 Mar 2026 09:26:28 GMT</lastBuildDate>
+<lastBuildDate>Wed, 13 May 2026 10:37:12 GMT</lastBuildDate>
 </channel>
 </rss>

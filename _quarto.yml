@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  site-url: "https://landelijke-docs.github.io/page/"
+  site-url: "https://landelijke-docs.codeberg.page/"
   title: "Landelijke Docs"
   favicon: "/site_design/ld_logo.ico"
   page-footer:
