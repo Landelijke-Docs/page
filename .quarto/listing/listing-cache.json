@@ -1,0 +1,17 @@
+{
+  "listingMap": {
+    "index.qmd": [
+      "mediabag/logos/*.png",
+      "mediabag/logos/*.svg"
+    ],
+    "learn.qmd": [
+      "chapters"
+    ],
+    "learning_bank\\learning_bank.qmd": [
+      "materials"
+    ],
+    "paths.qmd": [
+      "paths"
+    ]
+  }
+}

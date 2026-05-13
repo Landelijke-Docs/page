@@ -1,0 +1,80 @@
+{
+  "about.qmd": {
+    "about.html": "5d2affdd"
+  },
+  "ACCESSIBILITY.md": {
+    "ACCESSIBILITY.html": "3ddc6619"
+  },
+  "chapters.qmd": {
+    "chapters.html": "506fd296"
+  },
+  "CODE_OF_CONDUCT.MD": {
+    "CODE_OF_CONDUCT.html": "f92f529f"
+  },
+  "CONTRIBUTING.MD": {
+    "CONTRIBUTING.html": "aca63089"
+  },
+  "index.qmd": {
+    "index.html": "0ac731d2"
+  },
+  "paths/research_lifecycle.qmd": {
+    "research_lifecycle.html": "a66d287b"
+  },
+  "templates/path.qmd": {
+    "path.html": "0f62f615"
+  },
+  "templates/subtopic.qmd": {
+    "subtopic.html": "d21b8d04"
+  },
+  "templates/topic/topic.qmd": {
+    "topic.html": "290b797b"
+  },
+  "CODE_OF_CONDUCT.md": {
+    "CODE_OF_CONDUCT.html": "adbfae16"
+  },
+  "contributing.qmd": {
+    "contributing.html": "1370a9b6"
+  },
+  "good_practice.qmd": {
+    "good_practice.html": "8f05e71d"
+  },
+  "learn.qmd": {
+    "learn.html": "c341e4b4"
+  },
+  "learning_bank/3rd_party_res.qmd": {
+    "3rd_party_res.html": "c604225a"
+  },
+  "learning_bank/developing.qmd": {
+    "developing.html": "0d0d6a6d"
+  },
+  "learning_bank/learning_bank.qmd": {
+    "learning_bank.html": "c5748333"
+  },
+  "learning_bank/link_list.qmd": {
+    "link_list.html": "9141d601"
+  },
+  "paths/paths.qmd": {
+    "paths.html": "7ea96bfb"
+  },
+  "project_path.qmd": {
+    "project_path.html": "04076681"
+  },
+  "why_code.qmd": {
+    "why_code.html": "5472f2df"
+  },
+  "contributions.qmd": {
+    "contributions.html": "cec72f15"
+  },
+  "license.qmd": {
+    "license.html": "dc39a98d"
+  },
+  "paths.qmd": {
+    "paths.html": "3c25a4d7"
+  },
+  "format_word_tool.md": {
+    "format_word_tool.html": "68f32f6b"
+  },
+  "upload_form.qmd": {
+    "upload_form.html": "4e6a5fc3"
+  }
+}
