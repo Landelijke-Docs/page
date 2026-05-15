@@ -235,6 +235,6 @@
     "href": "upload_form.html",
     "title": "Upload Form",
     "section": "",
-    "text": "Name: \nEmail: \nGender:  Male  Female  Other\nInterests:  Reading  Coding  Music\nUpload File: \n\nSubmit"
+    "text": "Here you can fill out the information related to the learning material (the metadata) and then either add a link to the link list or upload the learning material directly. This will get processed and then an editor from the project can review it and add it to the learningbank!\nIf you want to just fill out the neccessary fields that it also possible. Just select the “Required only” button to remove all fields that are not required to submit the learning material."
   }
 ]

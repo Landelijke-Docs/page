@@ -1,5 +1,6 @@
 project:
   type: website
+  resources: "/static"
 
 website:
   site-url: "https://landelijke-docs.codeberg.page/"

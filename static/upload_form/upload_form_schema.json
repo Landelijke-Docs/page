@@ -15,30 +15,33 @@
                 "topics": {
                     "type": "array",
                     "title": "Topics",
+                    "uniqueItems": true,
                     "items": {
                         "type": "string",
-                        "enum": [],
-                        "enumLabels": []
+                        "enum": ["test", "gg"],
+                        "enumLabels": ["tester", "ggg"]
                     },
                     "description": "Choose all the relevant topics"
                 },
                 "subtopics": {
                     "type": "array",
                     "title": "Subtopics",
+                    "uniqueItems": true,
                     "items": {
                         "type": "string",
-                        "enum": [],
-                        "enumLabels": []
+                        "enum": ["test_1", "test_2"],
+                        "enumLabels": ["teste", "testd"]
                     },
                     "description": "Choose all the relevant subtopics"
                 },
                 "categories": {
                     "type": "array",
                     "title": "Categories",
+                    "uniqueItems": true,
                     "items": {
                         "type": "string",
-                        "enum": [],
-                        "enumLabels": []
+                        "enum": ["ail", "ale"],
+                        "enumLabels": ["Ail", "Ale"]
                     },
                     "description": "Choose all the relevant categories"
                 }
@@ -50,13 +53,13 @@
             "type": "object",
             "properties": {
                 "computer": {
-                    "type": "enum",
+                    "type": "string",
                     "title": "Computer language",
                     "enum": ["Python", "R", "Shell", "Javascript", "C++", "Julia", "Ruby", "GO", "Rust", "Fortran"],
                     "description": "What computer language is taught?"
                 },
                 "human": {
-                    "type": "enum",
+                    "type": "string",
                     "title": "Human language",
                     "enum": ["Dutch", "English", "Frisian", "Arabic", "Papiamento", "Turkish"],
                     "description": "What human language is this in?"
@@ -69,7 +72,7 @@
             "type": "object",
             "properties": {
                 "license": {
-                    "type": "enum",
+                    "type": "string",
                     "title": "What license does this have?",
                     "enum": ["MIT", "Creative Commons", "Apache 2.0", "GNU GPLv3", "Unlicense", "None", "Other permissive", "Other closed"],
                     "description": "Note: without a license others cannot re-use the work without explicit permission"
@@ -95,19 +98,19 @@
                     "description": "Which research institutes were involved in the creation of this content? Please separate them using ';'."
                 },
                 "website": {
-                    "type": "url",
+                    "type": "string",
                     "title": "website",
                     "description": "Is there a website for the content? E.g. The link to a web-book, a website of the creator(s), or a page with more information."
                 }
             },
-            "title": "",
+            "title": "Credit",
             "required": ["license"]
         },
         "Basics": {
             "type": "object",
             "properties": {
                 "difficulty": {
-                    "type": "enum",
+                    "type": "integer",
                     "title": "Difficulty",
                     "enum": [1,2,3,4,5,6,7,8,9,10],
                     "default": 0,
@@ -120,29 +123,30 @@
                     "description": "Is this a vital part of programming or more domain dependent?"
                 },
                 "learning_ease": {
-                    "type": "enum",
+                    "type": "integer",
                     "title": "Ease of learning",
                     "enum": [1,2,3,4,5,6,7,8,9,10],
                     "default": 0,
                     "description": "Out of 10, how easy is the material to follow and understand on your own? (10 being easy peasy and 1 being very challenging)"
                 },
                 "date_of_creation": {
-                    "type": "datetime",
+                    "type": "string",
                     "title": "Date of creation",
                     "description": "An approximate date will work if you do not know the exact date the content was made."
                 },
                 "date_of_review": {
-                    "type": "datetime",
+                    "type": "string",
                     "title": "Date of review/update",
                     "description": "Has this content been reviewed and updated at any point?"
                 },
                 "date_of_presentation": {
-                    "type": "datetime",
+                    "type": "string",
                     "title": "Date of presentation",
                     "description": "Was or will this content be presented? When was that/will that be?"
                 },
                 "file_types": {
                     "type": "array",
+                    "uniqueItems": true,
                     "title": "File types",
                     "items": {
                         "type": "string",
@@ -176,7 +180,7 @@
                     "description": "How many modules are in this content? If it is a single item you can type '1'."
                 },
                 "material_type": {
-                    "type": "enum",
+                    "type": "string",
                     "title": "Material type",
                     "enum": ["self", "taught", "hybrid"],
                     "enumLabels": ["Self taught", "Teacher led", "Mix of the two"],
@@ -190,7 +194,7 @@
             "type": "object",
             "properties": {
                 "time_to_follow": {
-                    "type": "number",
+                    "type": "integer",
                     "title": "Time to follow",
                     "description": "To the nearest hour, approximately how long does it take to follow the material?"
                 },
@@ -223,7 +227,7 @@
                     "description": "Are there any paid or closed tools or programs needed to follow the material?"
                 },
                 "account_needed": {
-                    "type": "enum",
+                    "type": "boolean",
                     "title": "Account requirements",
                     "enum": ["True", "False"],
                     "enumLabels": ["Yes", "No"],
@@ -235,19 +239,19 @@
                     "description": "Please use the 3 letter ISO 4217 code (check here for yours, https://en.wikipedia.org/wiki/ISO_4217). E.g. EUR for euros, ZMW for Zambian Kwacha, or VND for Vietnamese Dong"
                 },
                 "cost": {
-                    "type": "number",
+                    "type": "integer",
                     "title": "Cost to follow",
                     "default": -1,
                     "description": "What are the total costs for any paid services, tools, books, objects, data, or software needed to follow the material?"
                 },
                 "GPU_needed": {
-                    "type": "enum",
+                    "type": "boolean",
                     "title": "Is a GPU needed?",
                     "enum": ["True", "False"],
                     "enumLabels": ["Yes", "No"]
                 },
                 "assignments": {
-                    "type": "enum",
+                    "type": "boolean",
                     "title": "Are there take home assignments?",
                     "enum": ["True", "False"],
                     "enumLabels": ["Yes", "No"]
@@ -260,32 +264,32 @@
             "type": "object",
             "properties": {
                 "size_in_mb": {
-                    "type": "number",
+                    "type": "integer",
                     "title": "Size of the materials in MB",
                     "description": "Assume 1GB to be 1000MB for ease."
                 },
                 "mobile_friendly": {
-                    "type": "enum",
+                    "type": "boolean",
                     "title": "Mobile friendly",
                     "enum": ["True", "False"],
                     "enumLabels": ["Yes", "No"],
                     "description": "Could someone follow this on a mobile, tablet, of chromebook?"
                 },
                 "sight_impaired_friendly": {
-                    "type": "enum",
+                    "type": "boolean",
                     "title": "Sight impaire friendliness",
                     "enum": ["True", "False"],
                     "enumLabels": ["Yes", "No"],
                     "description": "Is the material in a format that someone could use a screen reader to read the text aloud?"
                 },
                 "open_source": {
-                    "type": "enum",
+                    "type": "boolean",
                     "title": "Is the material open source?",
                     "enum": ["True", "False"],
                     "enumLabels": ["Yes", "No"]
                 },
                 "readability_styling": {
-                    "type": "enum",
+                    "type": "boolean",
                     "title": "Readability",
                     "enum": ["True", "False"],
                     "enumLabels": ["Yes", "No"],

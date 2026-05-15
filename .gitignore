@@ -51,3 +51,26 @@ rsconnect/
 /.quarto/
 .DS_Store
 _book
+
+# secrets
+.env
+.env.*
+
+# python
+venv/
+__pycache__/
+
+# node
+node_modules/
+
+# uploads
+uploads/
+quarantine/
+tmp/
+
+# build outputs
+dist/
+_site/
+
+# logs
+*.log
