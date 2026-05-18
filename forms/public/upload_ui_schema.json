@@ -1,0 +1,23 @@
+{
+    "title": {
+    "ui:widget": "text"
+    },
+    "subtitle": {
+    "ui:widget": "text"
+    },
+    "topics": {
+    "ui:widget": "checkbox"
+    },
+    "subtopics": {
+    "ui:widget": "checkbox"
+    },
+    "categories": {
+        "ui:widget": "checkbox"
+    },
+    "computer": {
+        "ui:widget": "radio"
+    },
+    "file": {
+    "ui:widget": "file"
+    }
+}

@@ -18,7 +18,8 @@
                     "uniqueItems": true,
                     "items": {
                         "type": "string",
-                        "enum": ["test", "gg"]
+                        "enum": ["test", "gg"],
+                        "enumLabels": ["tester", "ggg"]
                     },
                     "description": "Choose all the relevant topics"
                 },
@@ -28,7 +29,8 @@
                     "uniqueItems": true,
                     "items": {
                         "type": "string",
-                        "enum": ["test_1", "test_2"]
+                        "enum": ["test_1", "test_2"],
+                        "enumLabels": ["teste", "testd"]
                     },
                     "description": "Choose all the relevant subtopics"
                 },
@@ -38,13 +40,14 @@
                     "uniqueItems": true,
                     "items": {
                         "type": "string",
-                        "enum": ["ail", "ale"]
+                        "enum": ["ail", "ale"],
+                        "enumLabels": ["Ail", "Ale"]
                     },
                     "description": "Choose all the relevant categories"
                 }
             },
         "title": "Name and Topics",
-        "required": ["title", "subtitle", "topics", "subtopics", "category"]
+        "required": ["title", "subtitle", "topics", "subtopic", "category"]
         },
         "Languages": {
             "type": "object",
@@ -147,7 +150,8 @@
                     "title": "File types",
                     "items": {
                         "type": "string",
-                        "enum": ["pdf", "doc", "ppt", "html", "script", "video", "audio", "txt"]
+                        "enum": ["pdf", "doc", "ppt", "html", "script", "video", "audio", "txt"],
+                        "enumLabels": ["Pdf", "Document", "Html", "Script", "Video", "Audio", "Text"]
                     },
                     "description": "What types of files are in your contribution? Some users might prefer audio or perhaps want to avoid larger files like videos."
                 },
@@ -170,15 +174,16 @@
                     "description": "Is there any accreditation available for following or completing this?"
                 },
                 "number_of_modules": {
-                    "type": "integer",
+                    "type": "number",
                     "title": "Number of modules",
-                    "default": 0,
+                    "default": "0",
                     "description": "How many modules are in this content? If it is a single item you can type '1'."
                 },
                 "material_type": {
                     "type": "string",
                     "title": "Material type",
-                    "enum": ["Self taught", "Teacher led", "Mix of the two"],
+                    "enum": ["self", "taught", "hybrid"],
+                    "enumLabels": ["Self taught", "Teacher led", "Mix of the two"],
                     "description": "Is the material intended to be taught, self taught, or a combination?"
                 }
             },
@@ -211,18 +216,21 @@
                 "admin_rights": {
                     "type": "boolean",
                     "title": "Are Admin rights needed?",
-                    "enum": ["Yes", "No"]
+                    "enum": ["True", "False"],
+                    "enumLabels": ["Yes", "No"]
                 },
                 "proprietary": {
                     "type": "boolean",
                     "title": "Proprietary tools",
-                    "enum": ["Yes", "No"],
+                    "enum": ["True", "False"],
+                    "enumLabels": ["Yes", "No"],
                     "description": "Are there any paid or closed tools or programs needed to follow the material?"
                 },
                 "account_needed": {
                     "type": "boolean",
                     "title": "Account requirements",
-                    "enum": ["Yes", "No"],
+                    "enum": ["True", "False"],
+                    "enumLabels": ["Yes", "No"],
                     "description": "Will the student need to make an account for anything to follow the material?"
                 },
                 "currency": {
@@ -239,12 +247,14 @@
                 "GPU_needed": {
                     "type": "boolean",
                     "title": "Is a GPU needed?",
-                    "enum": ["Yes", "No"]
+                    "enum": ["True", "False"],
+                    "enumLabels": ["Yes", "No"]
                 },
                 "assignments": {
                     "type": "boolean",
                     "title": "Are there take home assignments?",
-                    "enum": ["Yes", "No"]
+                    "enum": ["True", "False"],
+                    "enumLabels": ["Yes", "No"]
                 }
             },
             "title": "Material Requirements",
@@ -261,29 +271,32 @@
                 "mobile_friendly": {
                     "type": "boolean",
                     "title": "Mobile friendly",
-                    "enum": ["Yes", "No"],
+                    "enum": ["True", "False"],
+                    "enumLabels": ["Yes", "No"],
                     "description": "Could someone follow this on a mobile, tablet, of chromebook?"
                 },
                 "sight_impaired_friendly": {
                     "type": "boolean",
                     "title": "Sight impaire friendliness",
-                    "enum": ["Yes", "No"],
+                    "enum": ["True", "False"],
+                    "enumLabels": ["Yes", "No"],
                     "description": "Is the material in a format that someone could use a screen reader to read the text aloud?"
                 },
                 "open_source": {
                     "type": "boolean",
                     "title": "Is the material open source?",
-                    "enum": ["Yes", "No"]
+                    "enum": ["True", "False"],
+                    "enumLabels": ["Yes", "No"]
                 },
                 "readability_styling": {
                     "type": "boolean",
                     "title": "Readability",
-                    "enum": ["Yes", "No"],
+                    "enum": ["True", "False"],
+                    "enumLabels": ["Yes", "No"],
                     "description": "Does the material make use of a style guide to make it more readable (e.g. the Landelijke Docs one) I.E. does it have fonts, spacings, formatting, and colours that are friendly for those with ADHD, Dyslexis, Colour Blindness, or any other reading difficulty?"
                 }
             },
             "title": "Accessibility"
         }
-    },
-    "required": ["Topics", "Languages", "Credit", "Basics", "Requirements", "Accessibility"]
+    }
 }

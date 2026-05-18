@@ -58,6 +58,7 @@ _book
 
 # python
 venv/
+.venv/
 __pycache__/
 
 # node
@@ -70,7 +71,6 @@ tmp/
 
 # build outputs
 dist/
-_site/
 
 # logs
 *.log
