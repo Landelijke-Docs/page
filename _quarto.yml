@@ -19,15 +19,14 @@ website:
     background: "transparent"
     foreground: "#000000"
     logo: "/site_design/ld_logo.ico"
+    title: false
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
         text: About
       - href: why_code.qmd
-        text: Why should you code?
-      - href: good_practice.qmd
-        text: Programming Abridged
+        text: Why code?
       - href: learn.qmd
         text: Learn
       - text: Paths
@@ -48,9 +47,9 @@ website:
           href: learning_bank/developing.qmd
       - href: contributions.qmd
         text: Contributing
-    tools:
-      - icon: "/site_design/codeberg_logo.ico"
-        href: https://codeberg.org/Landelijke-Docs/pages
+    right:
+      - text: "![](/site_design/codeberg_logo.ico){width=30}"
+        href: "https://codeberg.org/Landelijke-Docs/pages"
 
 format:
   html:

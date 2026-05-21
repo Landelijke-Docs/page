@@ -26,7 +26,7 @@ Do you want to improve your programming skills and want to use materials created
 
 The learning bank is a free extensive collection of all the materials our partners have shared with the project, use them to teach classes, to teach yourself, to share with others or to edit for your own use. Each has a license reference, so do make sure to credit the creators as specified in the license.
 
-**Join us!** If you want to become a partner or an individual contributor then check out the [contributing page](../contributing.qmd) and join use on [Codeberg](https://codeberg.org/Landelijke-Docs)!
+**Join us!** If you want to become a partner or an individual contributor then check out the [contributing page](../contributions.qmd) and join use on [Codeberg](https://codeberg.org/Landelijke-Docs)!
 
 :::
 

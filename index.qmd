@@ -3,6 +3,7 @@ format:
     html
 fontsize: "1em"
 fontcolor: white
+css: landing_page.css
 listing:
     id: listing-gallery
     template: gallery.ejs
@@ -57,12 +58,18 @@ include-in-header:
             body {
                 background: linear-gradient(
                     to bottom,
-                    rgba(56, 7, 146, 0.7),
-                    rgba(1, 4, 34, 1)
+                    rgba(1, 4, 34, 1),
+                    rgba(56, 7, 146, 0.7)
+                    
                 );
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-attachment: fixed;
+                color: #ffffff;
+            }
+
+            p {
+                color: #ffffff;
             }
 
             .banner-text {
@@ -72,7 +79,7 @@ include-in-header:
                 transform: translateY(-50%)'
                 font-weight: bold
                 color: #ffffff;
-                font-size: 1.5em;
+                font-size: 32px;
                 text-align: left;
                 padding: 20px;
                 z-index: 1;
@@ -100,7 +107,8 @@ include-in-header:
             <p>Welcome to Landelijke Docs,</p>
             <p> a national effort to collectively produce</p>
             <p> the clearest and most comprehensive </p>
-            <p>documentation and guides on research software.</p>
+            <p>documentation and guides on research </p>
+            <p>software.</p>
         </div>
 ---
 

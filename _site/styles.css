@@ -13,3 +13,47 @@ img[src*='#center'] {
     text-align: center;
     margin-top: 10px;
 }
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    letter-spacing: 6px;
+    line-height: 2;
+    
+}
+
+p {
+    font-size: 1rem;
+    letter-spacing: 0.35rem;
+    line-height: 2;
+    color: #050e38ff;
+}
+
+body {
+    font-size: 1rem;
+    letter-spacing: 0.35rem;
+    line-height: 2;
+    background-color: #fff2dcff;
+    color: #050e38ff;
+}
+
+h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.875rem;
+    line-height: 2;
+    color: #050e38ff;
+}
+
+h2 {
+    font-size: 2rem;
+    letter-spacing: 0.7rem;
+    line-height: 2;
+    color: #050e38ff;
+}
+
+h3 {
+    font-size: 1.6rem;
+    letter-spacing: 0.56rem;
+    line-height: 2;
+    color: #050e38ff;
+}

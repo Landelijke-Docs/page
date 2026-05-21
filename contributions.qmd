@@ -8,18 +8,23 @@ Hey, it's great that you want to contribute to the project!
 
 Landelijke Docs is open-source, and as such, anyone can contribute! For those used to using git repositories the process will be familiar.
 
-You are welcome to contribute to our platform in two ways.
+<br></br>
 
-- Create a new Codeberg Issue
+You are welcome to contribute to our platform in four ways:
 
-|       Head over to our issue page on Codeberg to let us know about bugs, feature requests for the website, or anything that you would love to see developed for your 
-|       research project (e.g., a code snippet). You can also attach files.
+* Create a new Codeberg Issue
 
-- Contribute directly via Pull Requests
+    +   Head over to [our issue page on Codeberg](https://codeberg.org/Landelijke-Docs/pages/issues) to let us know about bugs, feature requests for the website, or anything that you would love to see developed for your research project (e.g., a code snippet). 
 
-Already familiar with Codeberg and Pull Requests? Than fork our repository, work on your changes in a fresh branch, and submit a pull request.
+* Contribute directly via Pull Requests
+
+    +   Already familiar with Codeberg and Pull Requests? Then [fork our repository](https://codeberg.org/Landelijke-Docs/pages/fork), work on your changes in a fresh branch, and submit a pull request.
+
+-   Add learning materials or links to your own or third party materials to the [file_dump repository](https://codeberg.org/Landelijke-Docs/file_dump). Check out the ReadMe for instructions
 
 Need a step-by-step tutorial on how to do that? [Read more about pull requests here](https://docs.codeberg.org/collaborating/pull-requests-and-git-flow/).
+
+<br></br>
 
 # What is a contribution?
 
@@ -27,6 +32,9 @@ Anything from simple changes, grammar checks and reporting a bug to more elabora
 
 We basically welcome any kind of feedback and contribution, including but not limited to:
 
+
+-   a copy of your guide/course/walk-through
+-   links to third party learning resources you found to be useful
 -   general fixes (typos, small sentences)
 -   elaborate changes (modifying, adding or removing an entire paragraph or chapter)
 -   asking for new content to be added
@@ -36,6 +44,14 @@ We basically welcome any kind of feedback and contribution, including but not li
 -   general tips or questions on the project
 -   beautification work
 -   graphics to use in or out of articles
+
+<br></br>
+
+# Where can I put links and my own content?
+
+If you have some learning content you have created and would like to share with the project you can make use of the [file_dump repo](https://codeberg.org/Landelijke-Docs/file_dump) in the project. [Fork](https://docs.codeberg.org/collaborating/pull-requests-and-git-flow/) the template and then make a pull request on the main branch and we will do the rest!
+
+<br></br>
 
 # How is the content organized?
 
@@ -51,16 +67,23 @@ We currently provide content in five categories:
 
 *   Outside resources, a list of organised links for 3rd party resources that contributors have found to be useful and well written/spoken/filmed.
 
+<br><br/>
+
 # Contribution Guides
 
 In order to help with your contributions we some guidelines and templates. You can find the templates [here in the repo](https://codeberg.org/Landelijke-Docs/pages/src/branch/main/templates), the style guide can be [found here](https://codeberg.org/Landelijke-Docs/pages/src/branch/main/Style%20guideline.docx) and [the readme](https://codeberg.org/Landelijke-Docs/pages/src/branch/main/README.md) has some information about the basics of Quarto (what this project uses to create the website). If you think that we could do with some more guides or templates then please raise it as an [issue in the repo](https://codeberg.org/Landelijke-Docs/pages/issues)! :)
 
+<br></br>
 
 # Contributing without an account
 
 Ideally the contribution follows the standard method of forking our repo in Codeberg, but if those words don't mean anything to you then you can either check out [this contribution guide](https://codeberg.org/MGMCoET/First_Contributions) or you can use our upload form. The questions asked are to fill out the [metadata file](https://codeberg.org/Landelijke-Docs/pages/src/branch/main/templates/metadata.toml) allowing people to better search and filter materials on the website. Not all questions are mandatory as most will have a default value. 
 
+
 [Contribute via the Upload Form](upload_form.qmd)
+
+
+<br><br/>
 
 
 # TODO list
