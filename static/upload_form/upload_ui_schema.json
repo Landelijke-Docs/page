@@ -1,0 +1,29 @@
+{
+    "hide_nonrequired": {
+        "type": "string",
+        "title": "Hide Non-Required Fields",
+        "ui:field": "button",
+        "description": "Click to hide non-required fields"
+    },
+    "title": {
+    "ui:widget": "text"
+    },
+    "subtitle": {
+    "ui:widget": "text"
+    },
+    "topics": {
+    "ui:widget": "checkbox"
+    },
+    "subtopics": {
+    "ui:widget": "checkbox"
+    },
+    "categories": {
+        "ui:widget": "checkbox"
+    },
+    "computer": {
+        "ui:widget": "radio"
+    },
+    "file": {
+    "ui:widget": "file"
+    }
+}

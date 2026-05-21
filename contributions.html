@@ -83,9 +83,6 @@ ul.task-list li input[type="checkbox"] {
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./site_design/ld_logo.ico" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Landelijke Docs</span>
-    </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -103,11 +100,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./why_code.html"> 
-<span class="menu-text">Why should you code?</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./good_practice.html"> 
-<span class="menu-text">Programming Abridged</span></a>
+<span class="menu-text">Why code?</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./learn.html"> 
@@ -156,9 +149,14 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Contributing</span></a>
   </li>  
 </ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://codeberg.org/Landelijke-Docs/pages"> 
+<span class="menu-text"><img src=".\site_design/codeberg_logo.ico" class="img-fluid" width="30"></span></a>
+  </li>  
+</ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-    <a href="https://codeberg.org/Landelijke-Docs/pages" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-/site_design/codeberg_logo.ico"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -173,6 +171,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#what-is-a-contribution" id="toc-what-is-a-contribution" class="nav-link active" data-scroll-target="#what-is-a-contribution">What is a contribution?</a></li>
+  <li><a href="#where-can-i-put-links-and-my-own-content" id="toc-where-can-i-put-links-and-my-own-content" class="nav-link" data-scroll-target="#where-can-i-put-links-and-my-own-content">Where can I put links and my own content?</a></li>
   <li><a href="#how-is-the-content-organized" id="toc-how-is-the-content-organized" class="nav-link" data-scroll-target="#how-is-the-content-organized">How is the content organized?</a></li>
   <li><a href="#contribution-guides" id="toc-contribution-guides" class="nav-link" data-scroll-target="#contribution-guides">Contribution Guides</a></li>
   <li><a href="#contributing-without-an-account" id="toc-contributing-without-an-account" class="nav-link" data-scroll-target="#contributing-without-an-account">Contributing without an account</a></li>
@@ -204,22 +203,28 @@ ul.task-list li input[type="checkbox"] {
 
 <p>Hey, it’s great that you want to contribute to the project!</p>
 <p>Landelijke Docs is open-source, and as such, anyone can contribute! For those used to using git repositories the process will be familiar.</p>
-<p>You are welcome to contribute to our platform in two ways.</p>
+<p><br><br></p>
+<p>You are welcome to contribute to our platform in four ways:</p>
 <ul>
-<li>Create a new Codeberg Issue</li>
-</ul>
-<div class="line-block">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Head over to our issue page on Codeberg to let us know about bugs, feature requests for the website, or anything that you would love to see developed for your<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;research project (e.g., a code snippet). You can also attach files.</div>
+<li><p>Create a new Codeberg Issue</p>
 <ul>
-<li>Contribute directly via Pull Requests</li>
+<li>Head over to <a href="https://codeberg.org/Landelijke-Docs/pages/issues">our issue page on Codeberg</a> to let us know about bugs, feature requests for the website, or anything that you would love to see developed for your research project (e.g., a code snippet).</li>
+</ul></li>
+<li><p>Contribute directly via Pull Requests</p>
+<ul>
+<li>Already familiar with Codeberg and Pull Requests? Then <a href="https://codeberg.org/Landelijke-Docs/pages/fork">fork our repository</a>, work on your changes in a fresh branch, and submit a pull request.</li>
+</ul></li>
+<li><p>Add learning materials or links to your own or third party materials to the <a href="https://codeberg.org/Landelijke-Docs/file_dump">file_dump repository</a>. Check out the ReadMe for instructions</p></li>
 </ul>
-<p>Already familiar with Codeberg and Pull Requests? Than fork our repository, work on your changes in a fresh branch, and submit a pull request.</p>
 <p>Need a step-by-step tutorial on how to do that? <a href="https://docs.codeberg.org/collaborating/pull-requests-and-git-flow/">Read more about pull requests here</a>.</p>
+<p><br><br></p>
 <section id="what-is-a-contribution" class="level1">
 <h1>What is a contribution?</h1>
 <p>Anything from simple changes, grammar checks and reporting a bug to more elaborate changes and writing entirely new content!</p>
 <p>We basically welcome any kind of feedback and contribution, including but not limited to:</p>
 <ul>
+<li>a copy of your guide/course/walk-through</li>
+<li>links to third party learning resources you found to be useful</li>
 <li>general fixes (typos, small sentences)</li>
 <li>elaborate changes (modifying, adding or removing an entire paragraph or chapter)</li>
 <li>asking for new content to be added</li>
@@ -230,6 +235,12 @@ ul.task-list li input[type="checkbox"] {
 <li>beautification work</li>
 <li>graphics to use in or out of articles</li>
 </ul>
+<p><br><br></p>
+</section>
+<section id="where-can-i-put-links-and-my-own-content" class="level1">
+<h1>Where can I put links and my own content?</h1>
+<p>If you have some learning content you have created and would like to share with the project you can make use of the <a href="https://codeberg.org/Landelijke-Docs/file_dump">file_dump repo</a> in the project. <a href="https://docs.codeberg.org/collaborating/pull-requests-and-git-flow/">Fork</a> the template and then make a pull request on the main branch and we will do the rest!</p>
+<p><br><br></p>
 </section>
 <section id="how-is-the-content-organized" class="level1">
 <h1>How is the content organized?</h1>
@@ -241,15 +252,18 @@ ul.task-list li input[type="checkbox"] {
 <li><p>The Learning Bank contains all learning resources created by our partners and contributors.</p></li>
 <li><p>Outside resources, a list of organised links for 3rd party resources that contributors have found to be useful and well written/spoken/filmed.</p></li>
 </ul>
+<p><br><br></p>
 </section>
 <section id="contribution-guides" class="level1">
 <h1>Contribution Guides</h1>
 <p>In order to help with your contributions we some guidelines and templates. You can find the templates <a href="https://codeberg.org/Landelijke-Docs/pages/src/branch/main/templates">here in the repo</a>, the style guide can be <a href="https://codeberg.org/Landelijke-Docs/pages/src/branch/main/Style%20guideline.docx">found here</a> and <a href="https://codeberg.org/Landelijke-Docs/pages/src/branch/main/README.md">the readme</a> has some information about the basics of Quarto (what this project uses to create the website). If you think that we could do with some more guides or templates then please raise it as an <a href="https://codeberg.org/Landelijke-Docs/pages/issues">issue in the repo</a>! :)</p>
+<p><br><br></p>
 </section>
 <section id="contributing-without-an-account" class="level1">
 <h1>Contributing without an account</h1>
 <p>Ideally the contribution follows the standard method of forking our repo in Codeberg, but if those words don’t mean anything to you then you can either check out <a href="https://codeberg.org/MGMCoET/First_Contributions">this contribution guide</a> or you can use our upload form. The questions asked are to fill out the <a href="https://codeberg.org/Landelijke-Docs/pages/src/branch/main/templates/metadata.toml">metadata file</a> allowing people to better search and filter materials on the website. Not all questions are mandatory as most will have a default value.</p>
 <p><a href="./upload_form.html">Contribute via the Upload Form</a></p>
+<p><br><br></p>
 </section>
 <section id="todo-list" class="level1">
 <h1>TODO list</h1>
